@@ -1,0 +1,8 @@
+tqdm
+openai
+dotenv
+pandas
+pdfplumber
+llama_parse
+nest_asyncio
+shutil
