@@ -17,6 +17,9 @@ def intercept_pdf(source_path, source_file, destination_path, dest_file, pages_t
         dest_doc = Document()
 
         total_pages = src_doc.page_count
+        if  total_pages == 0:
+            return "No page in the pdf"
+
         if max(pages_to_extract) > total_pages:
             pages_to_extract = [page for page in pages_to_extract if page <= total_pages]
 
@@ -31,16 +34,12 @@ def intercept_pdf(source_path, source_file, destination_path, dest_file, pages_t
         src_doc.close()
         dest_doc.close()
 
+        return "success"
+
     except Exception as e:
         print(f"Error: {source_file} {e}")
 
-        if os.path.exists(src):
-            # 执行复制操作
-            shutil.copy(src, dst)
-            print(f"文件已从 {src} 复制到 {dst}")
-        else:
-            print(f"源文件 {src} 不存在")
-
+        return e
 
 if __name__== "__main__":
 
@@ -54,7 +53,14 @@ if __name__== "__main__":
     output_pdf_path = "../resources/intercepted_pdf_directory_2023"
     download_info = pd.read_csv("../resources/download_2023_info.csv")
 
+    download_info["intercept_info"] = None
     for i in tqdm(range(len(download_info))):
         input_pdf_name = download_info["file_name"][i]
-        output_pdf_name = input_pdf_name.replace(".pdf", "_intercepted.pdf")
-        intercept_pdf(input_pdf_path, input_pdf_name, output_pdf_path, output_pdf_name, pages_to_extract=[0,1,2,3,4,5, 6, 7, 8, 9])
+        if input_pdf_name == "No link":
+            download_info["intercept_info"][i] = "No link"
+            continue
+        # output_pdf_name = input_pdf_name.replace(".pdf", "_intercepted.pdf")
+        intercept_info = intercept_pdf(input_pdf_path, input_pdf_name, output_pdf_path, dest_file=input_pdf_name, pages_to_extract=[0,1,2,3,4,5, 6, 7, 8, 9])
+        download_info["intercept_info"][i] = intercept_info
+
+    download_info.to_csv("../resources/download_2023_info.csv", index=False)
