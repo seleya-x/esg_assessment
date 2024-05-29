@@ -12,7 +12,9 @@ from llama_parse import LlamaParse
 dotenv.load_dotenv()
 nest_asyncio.apply()
 
+
 async def pdf_parser(
+        index:int,
         origin_file_path:str, 
         origin_file_name:str,
         target_file_path:str=None,
@@ -22,22 +24,21 @@ async def pdf_parser(
     try:
         start_time = time.time()
         print(f"Start parsing {origin_file_name} to markdown format")
-
         parser = LlamaParse(api_key=llama_cloud_api_key, result_type="markdown")
-
-        # documents = parser.load_data(os.path.join(origin_file_path, origin_file_name))
         documents = await parser.aload_data(os.path.join(origin_file_path, origin_file_name))
-
-        # print(type(documents[0].text))
-        with open(file=os.path.join(target_file_path, target_file_name), mode="w") as f:
-            f.write(documents[0].text)
-
-        print(f"Finish parsing {origin_file_name} to markdown format, Time elapsed: {time.time() - start_time}")
+        
+        if documents[0].text == "":
+            return index, "No text in the pdf"
+        else:
+            with open(file=os.path.join(target_file_path, target_file_name), mode="w") as f:
+                f.write(documents[0].text)
+            print(f"Finish parsing {origin_file_name} to markdown format, Time elapsed: {time.time() - start_time}")
+            return index, f"success"
 
     except Exception as e:
         print(f"Error: {origin_file_name} {e}")
-        pass
-        
+        return index, e
+
 
 async def main():
 
@@ -65,13 +66,13 @@ async def main():
     # download_info = pd.read_csv("../resources/download_info.csv")
 
     # 2023
-    origin_file_path = "../resources/origin_pdf_directory_2023"
-    target_file_path = "../resources/target_markdown_directory_2023"
-    download_info = pd.read_csv("../resources/download_2023_info.csv")
+    # origin_file_path = "../resources/origin_pdf_directory_2023"
+    # target_file_path = "../resources/target_markdown_directory_2023"
+    # download_info = pd.read_csv("../resources/download_2023_info.csv")
 
     # 2023 intercepted
     origin_file_path = "../resources/intercepted_pdf_directory_2023"
-    target_file_path = "../resources/target_intercepted_markdown_directory_2023"
+    target_file_path = "../resources/target_intercepted_markdown_directory_2023_test"
     download_info = pd.read_csv("../resources/download_2023_info.csv")
 
     total_pages = 0
@@ -119,14 +120,15 @@ async def main():
             llama_cloud_api_key = llama_cloud_api_key_list[num]
             total_pages = 0
 
-        task_coroutine = pdf_parser(origin_file_path, origin_file_name, target_file_path, target_file_name, llama_cloud_api_key)
+        task_coroutine = pdf_parser(i, origin_file_path, origin_file_name, target_file_path, target_file_name, llama_cloud_api_key)
         task_obj = asyncio.create_task(task_coroutine)
         tasks.append(task_obj)
-        download_info["converted_info"][i] = "success"
-        download_info.to_csv("../resources/download_2023_info__.csv", index=False)
 
-    await asyncio.gather(*tasks)
-
+    results = await asyncio.gather(*tasks)
+    for index, result in results:
+        download_info.loc[index, 'converted_info'] = result
+        
+    download_info.to_csv("../resources/download_2023_info__.csv", index=False)
 
 if __name__ == "__main__":
     asyncio.run(main(), debug=False)
