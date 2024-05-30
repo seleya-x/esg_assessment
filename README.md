@@ -1,23 +1,23 @@
 # ESG Report assessment
 ![prrocess flow](./asserts/processing%20flow.png)
 
-## Download & intercept
+## 1. Download & intercept
 
-### Download
+### 1.1. Download
 download pdf file
 
-### intercept
+### 1.2. intercept
 Intercept the first 10 pages of origin pdf file
 
 
-## Convert
+## 2. Convert
 convert pdf to markdown format by [LlamaParse](https://www.llamaindex.ai/blog/introducing-llamacloud-and-llamaparse-af8cedf9006b)
 
 
-## Extract & Assessment
+## 3. Extract & Assessment
 Using GPT to analysis file content and extract some information
 
-### Title Extract prompt
+### 3.1. Title Extract prompt
 
 ```
 The following is a document written by a company. The document is written in markdown format. Please provide the title of the document.Please output the above answer with the JSON format:{\"title\":\"xxxx\"}
@@ -26,7 +26,7 @@ The following is a document written by a company. The document is written in mar
 
 
 
-### ESG report  Assessment prompt
+### 3.2. ESG report  Assessment prompt
 ```
 "The ESG report title of %s for %s is "%s". Please refer to the above information to read the current document and answer the following questions:
     1. What is the title of the current document?
