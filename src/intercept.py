@@ -63,4 +63,4 @@ if __name__== "__main__":
         intercept_info = intercept_pdf(input_pdf_path, input_pdf_name, output_pdf_path, dest_file=input_pdf_name, pages_to_extract=[0,1,2,3,4,5, 6, 7, 8, 9])
         download_info["intercept_info"][i] = intercept_info
 
-    download_info.to_csv("../resources/download_2023_info.csv", index=False)
+    download_info.to_csv("../resources/download_intercept_2023_info.csv", index=False)

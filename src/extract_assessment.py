@@ -161,32 +161,34 @@ if __name__ == "__main__":
     #     print(title)
 
     # assessment
-    origin_info_df = pd.read_excel("../resources/reports_collection_2023.xlsx")
-    origin_info_df = origin_info_df.fillna("nan")
-    download_2023_info = pd.read_csv("../resources/download_2023_info.csv")
-    result = pd.concat([origin_info_df, download_2023_info], axis=1)
+    # origin_info_df = pd.read_excel("../resources/reports_collection_2023.xlsx")
+    # origin_info_df = origin_info_df.fillna("nan")
+    # download_2023_info = pd.read_csv("../resources/download_2023_info.csv")
+    # result = pd.concat([origin_info_df, download_2023_info], axis=1)
 
-    # result = pd.read_csv("../resources/reports_assessment_2023_result.csv")
-    # result = result.fillna("nan")
+    result = pd.read_csv("../resources/download_intercept_convert_2023_info.csv")
+    result = result.fillna("nan")
 
     # full document
     file_download_path = "../resources/target_markdown_directory_2023"
     file_list = os.listdir(file_download_path)
 
     # intercepted document
-    file_download_path = "../resources/target_intercepted_markdown_directory_2023"
+    file_download_path = "../resources/target_intercepted_markdown_directory_2023_test"
     file_list = os.listdir(file_download_path)
 
+    result["parser_info"] = None
     for i in range(len(result)):
-        if i >=300:
-            break
+        # if i >=300:
+        #     break
 
-        # if result["document_title"][i] != "nan":
-        #     print(f"2022_report_title: %s, \n has assessmented" % (result["document_title"][i]))
-        #     continue
+        if result["document_title"][i] != "nan":
+            print(f"2022_report_title: %s, \n has assessmented" % (result["document_title"][i]))
+            result.loc[i, "parser_info"] = "success"
+            continue
 
         file_name_2022 = result["filename_2022"][i].split("/")[-1].replace(".pdf", "").split("_")[-1]
-        file_name = result["file_name"][i].replace(".pdf", "_intercepted.md")
+        file_name = result["file_name"][i].replace(".pdf", ".md")
 
         time = result["FY"][i]
         company_name = result["name"][i]
@@ -196,6 +198,11 @@ if __name__ == "__main__":
             
             with open(file=os.path.join(file_download_path, file_name), mode="r") as f:
                 documents = f.read()
+
+            if len(documents) == 0:
+                print(f"Error: {file_name} {documents}")
+                result.loc[i, "parser_info"] = "Markdown file is empty."
+                continue
 
             try:
                 # res = llm_parser("assessment", documents[:131071], time=time, company_name=company_name, document_title=file_name_2022, llm_model="gpt-4o")
@@ -219,11 +226,14 @@ if __name__ == "__main__":
                 result.loc[i, "is_ESG"] = res_is_ESG
                 result.loc[i, "company"] = res_company
                 result.loc[i, "fiscal_year"] = res_fiscal_year
+                result.loc[i, "parser_info"] = "success"
 
             except Exception as e:
                 print(f"Error: {file_name} {e}")
+                result.loc[i, "parser_info"] = e
                 continue
         else:
+            result.loc[i, "parser_info"] = "failed"
             continue
 
-    result.to_csv("../resources/reports_assessment_2023_intercepted_result.csv", index=False)
+    result.to_csv("../resources/download_intercept_convert_assessment_2023_info@0530.csv", index=False)

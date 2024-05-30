@@ -16,7 +16,8 @@ def download_file(url, save_path, file_name):
         with open(os.path.join(save_path, file_name), mode="wb") as f:
             f.write(myfile.content)
 
-        return url, file_name, "Successfully downloaded"
+        return url, file_name, "success"
+    
     except requests.exceptions.RequestException as e:
         print(url, e)
         return url, file_name, e
@@ -51,4 +52,4 @@ if __name__ == "__main__":
             save_info.append("No link")
             file_namme_list.append("No link")
 
-    pd.DataFrame({"file_name": file_namme_list, "info": save_info}).to_csv("../resources/download_2023_info.csv", index=False)
+    pd.DataFrame({"filename_2023": file_namme_list, "info": save_info}).to_csv("../resources/download_2023_info.csv", index=False)
