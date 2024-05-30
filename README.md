@@ -1,14 +1,22 @@
 # ESG Report assessment
-
+![prrocess flow](./asserts/processing%20flow.png)
 
 ## Download & intercept
 
+### Download
+download pdf file
+
+### intercept
+Intercept the first 10 pages of origin pdf file
 
 
 ## Convert
+convert pdf to markdown format by [LlamaParse](https://www.llamaindex.ai/blog/introducing-llamacloud-and-llamaparse-af8cedf9006b)
 
 
-## Extract & assessment
+## Extract & Assessment
+Using GPT to analysis file content and extract some information
+
 ### Title Extract prompt
 
 ```
