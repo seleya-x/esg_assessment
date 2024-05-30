@@ -6,6 +6,11 @@
 ### 1.1. Download
 Download the PDF file using the provided URLs.
 
+| link_2022 | filename_2022  | link_filename |
+|:------|:-----|:-----|
+| https://portagebay.azureedge.net/nsark/audit_files/AAPL.OQ/AAPL.OQ_FY2022_2022 ESG Report.pdf | AAPL.OQ_FY2022_2022 ESG Report.pdf | https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2023.pdf |
+| https://portagebay.azureedge.net/nsark/audit_files/MSFT.OQ/MSFT.OQ_FY2022_Sustainable Development Goals Report 2022.pdf | MSFT.OQ_FY2022_Sustainable Development Goals Report 2022.pdf | https://s3.amazonaws.com/sustainabledevelopment.report/2023/sustainable-development-report-2023.pdf |
+
 ### 1.2. intercept
 Extract the first 10 pages from the original PDF file. Considering the original PDF file has a few hundred pages, it will take a large number of GPT tokens, so we capture the first 10 pages for PDF to markdown format conversion.
 
@@ -24,7 +29,6 @@ The above is a document written by a company. The document is written in markdow
 Please output the above answer with the JSON format:{\"title\":\"xxxx\"}
 
 ```
-
 
 
 ### 3.2. ESG report  Assessment prompt
