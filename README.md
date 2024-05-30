@@ -4,23 +4,24 @@
 ## 1. Download & intercept
 
 ### 1.1. Download
-download pdf file
+Download the PDF file using the provided URLs.
 
 ### 1.2. intercept
-Intercept the first 10 pages of origin pdf file
+Extract the first 10 pages from the original PDF file. Considering the original PDF file has a few hundred pages, it will take a large number of GPT tokens, so we capture the first 10 pages for PDF to markdown format conversion.
 
 
 ## 2. Convert
-convert pdf to markdown format by [LlamaParse](https://www.llamaindex.ai/blog/introducing-llamacloud-and-llamaparse-af8cedf9006b)
+Convert pdf to markdown format by [LlamaParse](https://www.llamaindex.ai/blog/introducing-llamacloud-and-llamaparse-af8cedf9006b). The converting period takes a long time, but LlamaParse offers an async API, so we use the async API to parallelize our data.
 
 
 ## 3. Extract & Assessment
-Using GPT to analysis file content and extract some information
+Using GPT to analyze file content and extract information through prompt engineering.
 
 ### 3.1. Title Extract prompt
 
 ```
-The following is a document written by a company. The document is written in markdown format. Please provide the title of the document.Please output the above answer with the JSON format:{\"title\":\"xxxx\"}
+The above is a document written by a company. The document is written in markdown format. Please provide the title of the document. 
+Please output the above answer with the JSON format:{\"title\":\"xxxx\"}
 
 ```
 

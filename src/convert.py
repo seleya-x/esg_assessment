@@ -21,9 +21,23 @@ async def pdf_parser(
         target_file_name:str=None,
         llama_cloud_api_key:str=os.environ.get("LLAMA_CLOUD_API_KEY")
 ):
+    """
+    Parse a PDF file to markdown format using LlamaParse API.
+
+    Args:
+        index (int): The index of the file being parsed.
+        origin_file_path (str): The path to the directory containing the PDF file.
+        origin_file_name (str): The name of the PDF file.
+        target_file_path (str, optional): The path to the directory where the parsed markdown file will be saved. Defaults to None.
+        target_file_name (str, optional): The name of the parsed markdown file. Defaults to None.
+        llama_cloud_api_key (str, optional): The API key for accessing the LlamaParse API. Defaults to the value of the "LLAMA_CLOUD_API_KEY" environment variable.
+
+    Returns:
+        tuple: A tuple containing the index of the file and a status message indicating the result of the parsing operation.
+    """
     try:
         start_time = time.time()
-        print(f"Start parsing {origin_file_name} to markdown format")
+        print(f"Start parsing {origin_file_name} to markdown format using {llama_cloud_api_key}...")
         parser = LlamaParse(api_key=llama_cloud_api_key, result_type="markdown")
         documents = await parser.aload_data(os.path.join(origin_file_path, origin_file_name))
         
@@ -42,28 +56,16 @@ async def pdf_parser(
 
 
 async def main():
+    """
+    Main function to parse PDF files to markdown format using LlamaParse API.
+    """
 
-    llama_cloud_api_key_list = [os.environ.get("LLAMA_CLOUD_API_KEY"),
-                                os.environ.get("LLAMA_CLOUD_API_KEY1"),
-                                os.environ.get("LLAMA_CLOUD_API_KEY2"),
-                                os.environ.get("LLAMA_CLOUD_API_KEY3"),
-                                os.environ.get("LLAMA_CLOUD_API_KEY4"),
-                                os.environ.get("LLAMA_CLOUD_API_KEY5"),
-                                os.environ.get("LLAMA_CLOUD_API_KEY6"),
-                                os.environ.get("LLAMA_CLOUD_API_KEY7"),
-                                os.environ.get("LLAMA_CLOUD_API_KEY8"),
-                                os.environ.get("LLAMA_CLOUD_API_KEY9")]
-    
-    # llama_cloud_api_key_list = [os.environ.get("LLAMA_CLOUD_API_KEY7"),
-    #                             os.environ.get("LLAMA_CLOUD_API_KEY8"),
-    #                             os.environ.get("LLAMA_CLOUD_API_KEY9")]
-
-    #  test
-    # origin_file_path = "../resources/origin_pdf_directory_2022"
-    # target_file_path = "../resources/target_markdown_directory_2022"
-    # origin_file_name = "MSFT.OQ_FY2022_Sustainable Development Goals Report 2022.pdf"
-    # target_file_name = "MSFT.OQ_FY2022_Sustainable Development Goals Report 2022.md"
-    # pdf_parser(origin_file_path, origin_file_name, target_file_path, target_file_name)
+    llama_cloud_api_key_list = [
+        os.environ.get("LLAMA_CLOUD_API_KEY"), os.environ.get("LLAMA_CLOUD_API_KEY1"),
+        os.environ.get("LLAMA_CLOUD_API_KEY2"), os.environ.get("LLAMA_CLOUD_API_KEY3"),
+        os.environ.get("LLAMA_CLOUD_API_KEY4"), os.environ.get("LLAMA_CLOUD_API_KEY5"),
+        os.environ.get("LLAMA_CLOUD_API_KEY6"), os.environ.get("LLAMA_CLOUD_API_KEY7"),
+        os.environ.get("LLAMA_CLOUD_API_KEY8"), os.environ.get("LLAMA_CLOUD_API_KEY9")]
 
     # 2022
     # origin_file_path = "../resources/origin_pdf_directory_2022"
@@ -78,17 +80,19 @@ async def main():
     # 2023 intercepted
     origin_file_path = "../resources/intercepted_pdf_directory_2023"
     target_file_path = "../resources/target_intercepted_markdown_directory_2023_test"
-    download_intercept_info = pd.read_csv("../resources/reports_assessment_2023_intercepted_result@0530.csv")
+    # download_intercept_info = pd.read_csv("../resources/reports_assessment_2023_intercepted_result@0530.csv")
+    download_intercept_info = pd.read_csv("../resources/download_intercept_2023_info.csv")
 
+    num = 0
     total_pages = 0
     tasks = []
-    num = 0
     download_intercept_info["converted_info"] = None
+
     for i in range(len(download_intercept_info)):
         intercept_info = download_intercept_info["intercept_info"][i]
         if intercept_info != "success":
             # 截取失败的数据不进行转换
-            download_intercept_info["converted_info"][i] = "can not convert to markdown format"
+            download_intercept_info["converted_info"][i] = "convert failed"
             continue
 
         origin_file_name = download_intercept_info["file_name"][i]
@@ -108,8 +112,8 @@ async def main():
                 download_intercept_info["converted_info"][i] = "No page in the pdf"
                 continue
             print(f"The pages of {origin_file_name} is {file_pages}")
-            
             total_pages += file_pages
+
         except Exception as e:
             print(f"Error: {origin_file_name} {e}")
             download_intercept_info["converted_info"][i] = e
@@ -127,7 +131,7 @@ async def main():
                 # 超过api key的数量，退出
                 break
             llama_cloud_api_key = llama_cloud_api_key_list[num]
-            total_pages = 0
+            total_pages = file_pages
 
         task_coroutine = pdf_parser(i, origin_file_path, origin_file_name, target_file_path, target_file_name, llama_cloud_api_key)
         task_obj = asyncio.create_task(task_coroutine)
