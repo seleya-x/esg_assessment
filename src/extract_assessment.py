@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import openai
 import dotenv
@@ -149,43 +150,17 @@ def llm_parser(chat_type:str,
 
 
 if __name__ == "__main__":
-    # with open(file="./target_markdown_directory/AAPL.OQ_FY2022_2022 ESG Report.pdfAAPL.OQ_FY2022_2022 ESG Report.md", mode="r") as f:
-    #     documents = f.read()
-
-    # title = json.loads(llm_parser("title_extraction", documents, llm_model="gpt-4o"))["title"]
-    # print(title)
-    # print(llm_parser("qa", documents, time="2022", company_name="Apple Inc.", document_title="Apple’s 2022 ESG Report", llm_model="gpt-4o"))
-
-    # time = "2022"
-    # company_name = "Westpac Banking Corp"
-    # document_title = "Sustainability Supplement 2022 - Westpac Group"
-
-    # download_info = pd.read_csv("../resources/download_info.csv")
-
-    # file_download_path = "../resources/target_markdown_directory_2022"
-    # file_list = os.listdir(file_download_path)
-
-    # title_extraction
-    # for file_name in file_list:
-    #     with open(file=os.path.join(file_download_path, file_name), mode="r") as f:
-    #         documents = f.read()
-    #     # openai.BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, your messages resulted in 150944 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
-    #     title = llm_parser("title_extraction", documents[:131071], llm_model="gpt-4o")
-    #     print(file_name)
-    #     print(title)
-
-    # assessment
-    # origin_info_df = pd.read_excel("../resources/reports_collection_2023.xlsx")
-    # origin_info_df = origin_info_df.fillna("nan")
-    # download_2023_info = pd.read_csv("../resources/download_2023_info.csv")
-    # result = pd.concat([origin_info_df, download_2023_info], axis=1)
-
+    # openai.BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, your messages resulted in 150944 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
     result = pd.read_csv("../resources/potential_convert_2023_info.csv")
     result = result.fillna("nan")
 
-    # full document
-    # file_download_path = "../resources/target_markdown_directory_2023"
-    # file_list = os.listdir(file_download_path)
+    # 防止重复解析
+    try:
+        potential_assessment = pd.read_csv("../resources/potential_assessment_2023_info.csv")
+        potential_assessment = potential_assessment.fillna("nan")
+    except FileNotFoundError:
+        num_rows = len(result)
+        potential_assessment = pd.DataFrame({'document_title': pd.Series([None] * num_rows)})
 
     # potential intercepted document
     file_download_path = "../resources/potential_markdown_directory_2023"
@@ -200,10 +175,7 @@ if __name__ == "__main__":
     result["fiscal_year"] = None
 
     for i in range(len(result)):
-        # if i >=300:
-        #     break
-
-        if result["document_title"][i] != None and result["document_title"][i] != "nan" and result["document_title"][i] != "No link" and result["document_title"][i] != "No title" and result["document_title"][i] != "nan":
+        if potential_assessment["document_title"][i] != None and potential_assessment["document_title"][i] != "nan" and potential_assessment["document_title"][i] != "No link" and potential_assessment["document_title"][i] != "No title":
             print(f"2022_report_title: %s, \n has assessmented" % (result["document_title"][i]))
             result.loc[i, "parser_info"] = "success"
             continue
@@ -226,13 +198,11 @@ if __name__ == "__main__":
                 result.loc[i, "parser_info"] = "Markdown file is empty."
                 continue
 
+            # llm_parser_res = llm_parser("assessment", documents[:131071], time=time, company_name=company_name, document_title=file_name_2022, llm_model="gpt-4o")
+            # llm_parser_res = llm_parser("assessment", documents=documents[:131071], time=time, company_name=company_name, document_title=file_name_last_year, llm_model="gpt-4o")
+            llm_parser_res = llm_parser("assessment", documents=documents[:131071], company_name=company_name, document_title=file_name_last_year, llm_model="gpt-4o")
             try:
-                # res = llm_parser("assessment", documents[:131071], time=time, company_name=company_name, document_title=file_name_2022, llm_model="gpt-4o")
-                # res = json.loads(llm_parser("assessment", documents=documents[:131071], time=time, company_name=company_name, document_title=file_name_last_year, llm_model="gpt-4o"))
-                res = json.loads(llm_parser("assessment", documents=documents[:131071], company_name=company_name, document_title=file_name_last_year, llm_model="gpt-4o"))
-
-                print(f"predict: %s" % res)
-                print()
+                res = json.loads(llm_parser_res)
                 res_title = res["title"]
                 res_title_similarity = res["title_similarity"]
                 res_similarity = res["similarity"]
@@ -254,6 +224,7 @@ if __name__ == "__main__":
 
             except Exception as e:
                 print(f"Error: {file_name} {e}")
+                print(f"Error: {file_name} {llm_parser_res}")
                 result.loc[i, "parser_info"] = e
                 continue
         else:
