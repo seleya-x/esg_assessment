@@ -83,7 +83,6 @@ if __name__== "__main__":
     
     for i in range(len(download_info)):
         input_pdf_name = str(download_info["link"][i]).split("/")[-1]
-        print(input_pdf_name)
         if input_pdf_name == "" or is_pdf_by_extension(input_pdf_name) == False:
             download_info.loc[i, "intercept_info"] = "file format error"
             continue
@@ -96,8 +95,11 @@ if __name__== "__main__":
             download_info.loc[i, "intercept_info"] = "not download yet"
             continue
 
-        intercept_info = intercept_pdf(input_pdf_path, input_pdf_name, output_pdf_path, dest_file=input_pdf_name, pages_to_extract=[0,1,2,3,4,5, 6, 7, 8, 9])
-        download_info.loc[i, "intercept_info"]  = intercept_info
+        # exist .PDF, change to .pdf
+        dest_file = input_pdf_name.replace(".PDF", ".pdf")
+        print(f"input_pdf_name: {input_pdf_name}, dest_file {dest_file}")
 
+        intercept_info = intercept_pdf(input_pdf_path, input_pdf_name, output_pdf_path, dest_file=dest_file, pages_to_extract=[0,1,2,3,4,5, 6, 7, 8, 9])
+        download_info.loc[i, "intercept_info"]  = intercept_info
 
     download_info.to_csv("../resources/potential_intercept_2023_info.csv", index=False)

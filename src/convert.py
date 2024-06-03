@@ -37,8 +37,9 @@ async def pdf_parser(
     """
     try:
         start_time = time.time()
-        print(f"Start parsing {origin_file_name} to markdown format using {llama_cloud_api_key}...")
+        # print(f"Start parsing {origin_file_name} to markdown format using {llama_cloud_api_key}...")
         parser = LlamaParse(api_key=llama_cloud_api_key, result_type="markdown")
+        
         documents = await parser.aload_data(os.path.join(origin_file_path, origin_file_name))
         
         if documents[0].text == "":
@@ -47,7 +48,7 @@ async def pdf_parser(
         else:
             with open(file=os.path.join(target_file_path, target_file_name), mode="w") as f:
                 f.write(documents[0].text)
-            print(f"Finish parsing {origin_file_name} to markdown format, Time elapsed: {time.time() - start_time}")
+            # print(f"Finish parsing {origin_file_name} to markdown format, Time elapsed: {time.time() - start_time}")
             return index, "success"
             
     except Exception as e:
@@ -111,12 +112,14 @@ async def main():
         # origin_file_name = download_intercept_info["file_name"][i]
         origin_file_name = download_intercept_info["link"][i].split("/")[-1]
 
+        origin_file_name = origin_file_name.replace(".PDF", ".pdf")
+        
         target_file_name = origin_file_name.replace(".pdf", ".md")
 
         downloaded_file_list = os.listdir(target_file_path)
         if target_file_name in downloaded_file_list:
             # 已经转换过的pdf不再转换
-            print(f"{origin_file_name} has been converrted to markdown format")
+            # print(f"{origin_file_name} has been converrted to markdown format")
             # download_intercept_info["converted_info"][i] = "success"
             download_intercept_info.loc[i, "converted_info"] = "success"
             continue
@@ -130,7 +133,7 @@ async def main():
                 download_intercept_info.loc[i, "converted_info"] = "No page in the pdf"
 
                 continue
-            print(f"The pages of {origin_file_name} is {file_pages}")
+            # print(f"The pages of {origin_file_name} is {file_pages}")
             total_pages += file_pages
 
         except Exception as e:
@@ -140,8 +143,8 @@ async def main():
             continue
 
         if total_pages > limit:
-            print(f"Total pages {total_pages}")
-            print(f"Total pages at the end of {origin_file_name} is more than {limit}")
+            # print(f"Total pages {total_pages}")
+            # print(f"Total pages at the end of {origin_file_name} is more than {limit}")
             # 超过1000页，切换到下一个api key
             num += 1
             if num >= len(llama_cloud_api_key_list):
