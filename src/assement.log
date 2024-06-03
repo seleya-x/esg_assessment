@@ -1,0 +1,1737 @@
+nohup: ignoring input
+2022_report_title: 20230418AppleInc-CorporateResponsibility2023-4-18WC000000003009065206, 
+company_name: Apple Inc, 
+2023_file_name: Apple_Environmental_Progress_Report_2024.md
+predict: {'title': '2024 Environmental Progress Report', 'title_similarity': 2, 'similarity': 3, 'is_ESG': 'yes', 'corporate_entity': 'Apple Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Environmental, Social & Governance Report, 
+company_name: Visa Inc, 
+2023_file_name: 2023-visa-cdp-response.md
+Error: 2023-visa-cdp-response.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 Environmental Social Governance Report, 
+company_name: JPMorgan Chase & Co, 
+2023_file_name: jpmc-esg-report-2023.md
+predict: {'title': '2023 Environmental Social Governance Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'JPMorgan Chase & Co.', 'fiscal_year': '2023'}
+
+2022_report_title: 20230307ExxonMobilCorp-CorporateResponsibility2023-3-07SD000000003005608636, 
+company_name: Exxon Mobil Corp, 
+2023_file_name: investing-in-people-2023.md
+predict: {'title': 'EXXONMOBIL SUSTAINABILITY REPORT – INVESTING IN PEOPLE', 'title_similarity': 3, 'similarity': 3, 'is_ESG': 'yes', 'corporate_entity': 'ExxonMobil', 'fiscal_year': '2023'}
+
+2022_report_title: ENVIRONMENTAL, SOCIAL ANDGOVERNANCE REPORT 2022, 
+company_name: Tencent Holdings Ltd, 
+2023_file_name: a041eba55b96c7952e26180a2c7cdd28.md
+predict: {'title': 'Environmental, Social and Governance Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Tencent Holdings Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: Creating Shared Value and Sustainability Report 2022, 
+company_name: Nestle SA, 
+2023_file_name: creating-shared-value-sustainability-report-2023-en.md
+predict: {'title': 'Creating Shared Value and Sustainability Report 2023', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Nestlé SA', 'fiscal_year': '2023'}
+
+2022_report_title: 20230503ChevronCorp-CorporateResponsibility2023-05-03, 
+company_name: Chevron Corp, 
+2023_file_name: chevron-proxy-statement-2023.md
+predict: {'title': '2023 Proxy Statement', 'title_similarity': 1, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: 2022 UNIVERSAL REGISTRATION DOCUMENT, 
+company_name: L'Oreal SA, 
+2023_file_name: LOREAL_2023_Universal_Registration_Document_en.md
+predict: {'title': '2023 UNIVERSAL REGISTRATION DOCUMENT', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': "L'Oréal SA", 'fiscal_year': '2023'}
+
+2022_report_title: Integrated Report 2022, 
+company_name: International Holding Company PJSC, 
+2023_file_name: 1709801482_file_1.md
+Error: 1709801482_file_1.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 Corporate Social Responsibility Report (ESG Report), 
+company_name: Industrial and Commercial Bank of China Ltd, 
+2023_file_name: esg20240327en.md
+predict: {'title': 'Industrial and Commercial Bank of China Limited Corporate Social Responsibility Report 2023', 'title_similarity': 8, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Industrial and Commercial Bank of China Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 UNIVERSAL REGISTRATION DOCUMENT, 
+company_name: Hermes International SCA, 
+2023_file_name: hermes_2022_urd_csr-extract_en.md
+predict: {'title': '2022 UNIVERSAL REGISTRATION DOCUMENT', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Hermès International SCA', 'fiscal_year': '2022'}
+
+2022_report_title: 360° Value Report 2022, 
+company_name: Accenture PLC, 
+2023_file_name: 360-Value-Report-2023.md
+predict: {'title': '360° Value Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Accenture PLC', 'fiscal_year': '2023'}
+
+2022_report_title: 2022年度可持续发展报告, 
+company_name: China Mobile Ltd, 
+2023_file_name: sd2023.md
+predict: {'title': 'China Mobile Limited Sustainability Report 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'China Mobile Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 20230413ChinaMobileLtd-CorporateResponsibility2023-4-13SL000000003008568131, 
+company_name: China Mobile Ltd, 
+2023_file_name: sd2023.md
+predict: {'title': 'China Mobile Limited Sustainability Report 2023', 'title_similarity': 2, 'similarity': 3, 'is_ESG': 'yes', 'corporate_entity': 'China Mobile Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 20230330AgriculturalBankofChinaLtd-CorporateResponsibility2023-3-30SL000000003007327988, 
+company_name: Agricultural Bank of China Ltd, 
+2023_file_name: P020230331664255776160.md
+predict: {'title': 'Agricultural Bank of China Corporate Social Responsibility Report (Environmental Social and Governance Report) 2022', 'title_similarity': 8, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Agricultural Bank of China', 'fiscal_year': '2022'}
+
+2022_report_title: Impact Report 2022, 
+company_name: Nike Inc, 
+2023_file_name: FY22-NIKE,-Inc.-Impact-Report.md
+predict: {'title': 'FY22 NIKE, Inc. Impact Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'NIKE, Inc.', 'fiscal_year': 'FY22'}
+
+2022_report_title: 2022 Sustainability Report, 
+company_name: Bank of China Ltd, 
+2023_file_name: P020231011315246686358.md
+Error: P020231011315246686358.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 20230330BankofChinaLtd-CorporateResponsibility2023-3-30SL000000003007330865, 
+company_name: Bank of China Ltd, 
+2023_file_name: P020231011315246686358.md
+predict: {'title': 'Bank of China Limited Transition Bonds Management Statement (2023 Version)', 'title_similarity': 2, 'similarity': 5, 'is_ESG': 'no'}
+
+2022_report_title: 2022Corporate SocialResponsibility Report, 
+company_name: Walt Disney Co, 
+2023_file_name: TWDC-EMEA-CSR-Report_2023.md
+predict: {'title': '2023 Sustainability & Social Impact Report', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'The Walt Disney Company', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ESG Report, 
+company_name: Verizon Communications Inc, 
+2023_file_name: Verizon-2023-ESG-Report.md
+Error: Verizon-2023-ESG-Report.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 20230329ChinaConstructionBankCorp-CorporateResponsibility2023-3-29SL000000003007205729, 
+company_name: China Construction Bank Corp, 
+2023_file_name: 2024032802545.md
+predict: {'title': 'Corporate Social Responsibility Report 2023 of China Construction Bank Corporation', 'title_similarity': 4, 'similarity': 4, 'is_ESG': 'yes', 'corporate_entity': 'China Construction Bank Corporation', 'fiscal_year': '2023'}
+
+2022_report_title: 2022年年报, 
+company_name: China Construction Bank Corp, 
+2023_file_name: 2024032802599_c.md
+predict: {'title': '2023年年度报告', 'title_similarity': 8, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': '中国建设银行股份有限公司', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Environmental, Socialand Governance Summary, 
+company_name: Raytheon Technologies Corp, 
+2023_file_name: 2022-rtx-esg-appendix.md
+predict: {'title': 'Raytheon Technologies 2022 Environmental, Social and Governance Report Appendix', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Raytheon Technologies Corp', 'fiscal_year': '2022'}
+
+2022_report_title: 20230321TotalEnergiesSE-CorporateResponsibility2023-3-21WC000000003006461380, 
+company_name: TotalEnergies SE, 
+2023_file_name: 202202_Strategy_Sustainability_Climate_presentation.md
+predict: {'title': 'TotalEnergies Strategy, Sustainability & Climate', 'title_similarity': 4, 'similarity': 4, 'is_ESG': 'no'}
+
+2022_report_title: 2022 Environmental, Social and Governance (ESG) Report, 
+company_name: Contemporary Amperex Technology Co Ltd, 
+2023_file_name: 20240417102933_uuiks9ljr8.md
+predict: {'title': '2023 Environmental, Social and Governance (ESG) Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Contemporary Amperex Technology Co., Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ESG Performance Report, 
+company_name: Royal Bank of Canada, 
+2023_file_name: esg-progress-report-2023.md
+predict: {'title': '2023 ESG Progress Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Royal Bank of Canada', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ENVIRONMENTAL, SOCIAL & GOVERNANCE REPORT, 
+company_name: Amgen Inc, 
+2023_file_name: amgen-cdp-programmeresponseclimate-change.md
+predict: {'title': 'Climate Change 2023', 'title_similarity': 6, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'Amgen Inc', 'fiscal_year': '2022'}
+
+2022_report_title: 20230315PingAnInsuranceGroupCoof-CorporateResponsibility2023-3-15SL000000003005884621, 
+company_name: Ping An Insurance Group Co of China Ltd, 
+2023_file_name: pingan-sustainability-report-22.md
+predict: {'title': 'Ping An Sustainability Report 2022', 'title_similarity': 2, 'similarity': 3, 'is_ESG': 'yes', 'corporate_entity': 'Ping An Insurance (Group) Company of China, Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: 2022可持续发展报告, 
+company_name: Ping An Insurance Group Co of China Ltd, 
+2023_file_name: pingan-ar23-report.md
+predict: {'title': 'ANNOUNCEMENT OF AUDITED RESULTS FOR THE YEAR ENDED DECEMBER 31, 2023', 'title_similarity': 2, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: DEI Report 2023, 
+company_name: ServiceNow Inc, 
+2023_file_name: nyse-now-2024-10K-24562943.md
+predict: {'title': 'ServiceNow Annual Report 2024', 'title_similarity': 2, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: Climate Change 2022, 
+company_name: Starbucks Corp, 
+2023_file_name: 137-88326.md
+Error: 137-88326.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022China Merchants BankSustainability Report, 
+company_name: China Merchants Bank Co Ltd, 
+2023_file_name: 46e9e604-5282-45de-9ccd-a7378a14bec3.md
+predict: {'title': 'China Merchants Bank Co., Ltd. Sustainability Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'China Merchants Bank Co., Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ESG Report, 
+company_name: Toronto-Dominion Bank, 
+2023_file_name: 2023-sustainability-report-en.md
+predict: {'title': '2023 Sustainability Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'TD Bank Group', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Public Accountability Statement, 
+company_name: Toronto-Dominion Bank, 
+2023_file_name: 2023-public-accountability-statement-en.md
+predict: {'title': '2023 Public Accountability Statement', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'The Toronto-Dominion Bank', 'fiscal_year': 'November 1, 2022 to October 31, 2023'}
+
+2022_report_title: 2022 Environmental, Social and Governance Report, 
+company_name: Toronto-Dominion Bank, 
+2023_file_name: 2023-sustainability-report-en.md
+Error: 2023-sustainability-report-en.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Annual Report 2022, 
+company_name: Deutsche Telekom AG, 
+2023_file_name: dl-2023-geschaeftsbericht-en-data.md
+predict: {'title': 'Deutsche Telekom. The 2023 financial year.', 'title_similarity': 3, 'similarity': 4, 'is_ESG': 'yes', 'corporate_entity': 'Deutsche Telekom AG', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Goldman Sachs Group Inc, 
+2023_file_name: report.md
+predict: {'title': 'GOLDMAN SACHS 2023 SUSTAINABILITY REPORT', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Goldman Sachs Group Inc', 'fiscal_year': '2023'}
+
+2022_report_title: 2021 Global Diversity, Equity and Inclusion Report, 
+company_name: BlackRock Inc, 
+2023_file_name: dei-annual-report.md
+predict: {'title': '2022 Global Diversity, Equity and Inclusion Annual Report', 'title_similarity': 9, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'BlackRock Inc', 'fiscal_year': '2022'}
+
+2022_report_title: 2022BYDCSRReport, 
+company_name: BYD Co Ltd, 
+2023_file_name: 2023032801987.md
+predict: {'title': '2022 BYD CSR Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'BYD Company Limited', 'fiscal_year': '2022'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Abu Dhabi National Energy Company PJSC, 
+2023_file_name: TAQA-Sustainability-Report-2022.md
+predict: {'title': 'Sustainability Report 2022', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Abu Dhabi National Energy Company PJSC', 'fiscal_year': '2022'}
+
+2022_report_title: ESG Data 2022, 
+company_name: BP PLC, 
+2023_file_name: bp-sasb-index-2023.md
+predict: {'title': 'SASB Index 2023', 'title_similarity': 3, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'bp', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 SustainableDevelopment Report, 
+company_name: Schneider Electric SE, 
+2023_file_name: schneider-sustainability-impact-q4-2023-results.md
+predict: {'title': 'Schneider FY 2023 Report', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Schneider Electric SE', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 sustainability report, 
+company_name: China Petroleum & Chemical Corp, 
+2023_file_name: 2024032402.md
+predict: {'title': '2023 sustainability report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'China Petroleum & Chemical Corporation', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Integrated Annual Report, 
+company_name: Equinor ASA, 
+2023_file_name: a2c8355cfbd95a967441e33e0f77a1ce950e188f.md?2023-annual-report-equinor.md
+Error: a2c8355cfbd95a967441e33e0f77a1ce950e188f.md?2023-annual-report-equinor.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 ESG REPORT, 
+company_name: Marsh & McLennan Companies Inc, 
+2023_file_name: 2023-Marsh-McLennan-ESG-Report.md
+predict: {'title': 'Empowering Sustainable Futures—2023 ESG Report', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Marsh & McLennan Companies Inc', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Allianz SE, 
+2023_file_name: Allianz_Group_Sustainability_Report_2023-web.md
+Error: Allianz_Group_Sustainability_Report_2023-web.md Extra data: line 1 column 2 (char 1)
+2022_report_title: Key Performance Indicators, 
+company_name: Vertex Pharmaceuticals Inc, 
+2023_file_name: 2023-Vertex-KPIs.md
+predict: {'title': 'Key Performance Indicators', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Vertex Pharmaceuticals Inc', 'fiscal_year': '2023'}
+
+2022_report_title: 2023 Environmental,Social, andGovernance Report, 
+company_name: Uber Technologies Inc, 
+2023_file_name: Uber-2024-Environmental-Social-and-Governance-Report.md
+predict: {'title': 'Uber 2024 Environmental, Social, and Governance Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Uber Technologies Inc.', 'fiscal_year': '2024'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Mercedes Benz Group AG, 
+2023_file_name: mercedes-benz-sustainability-report-2023.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Mercedes-Benz Group', 'fiscal_year': '2023'}
+
+2022_report_title: Annual Impact Rerport, 
+company_name: HCA Healthcare Inc, 
+2023_file_name: 2023-impact-report.md
+predict: {'title': 'HCA Healthcare Annual Impact Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'HCA Healthcare Inc', 'fiscal_year': '2022'}
+
+2022_report_title: 2022 Climate Report, 
+company_name: Shopify Inc, 
+2023_file_name: f9969259-3407-4da0-b900-1bd5ec143135.md
+predict: {'title': '2023 Annual Information Form', 'title_similarity': 1, 'similarity': 1, 'is_ESG': 'no'}
+
+2022_report_title: 2022 Corporate Social Responsibility Report, 
+company_name: Fiserv Inc, 
+2023_file_name: 2023-csr-report-0424.md
+predict: {'title': '2023 Corporate Social Responsibility Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Fiserv Inc', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 TCFD REPORT, 
+company_name: Regeneron Pharmaceuticals Inc, 
+2023_file_name: cdp-climate-change.md
+predict: {'title': 'Regeneron Pharmaceuticals, Inc. - Climate Change 2023', 'title_similarity': 6, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Regeneron Pharmaceuticals, Inc.', 'fiscal_year': '2022'}
+
+2022_report_title: 2022 RESPONSIBILITY REPORT, 
+company_name: Regeneron Pharmaceuticals Inc, 
+2023_file_name: cdp-climate-change.md
+predict: {'title': 'Regeneron Pharmaceuticals, Inc. - Climate Change 2023', 'title_similarity': 6, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Regeneron Pharmaceuticals Inc', 'fiscal_year': '2022'}
+
+2022_report_title: 2022 Performance Report, 
+company_name: Boston Scientific Corp, 
+2023_file_name: BostonScientific2023PerformanceReport.md
+predict: {'title': '2023 Performance Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Boston Scientific', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 年度社会责任报告, 
+company_name: China Yangtze Power Co Ltd, 
+2023_file_name: 600900_20240430_MEWP.md
+predict: {'title': '2023年年度报告', 'title_similarity': 8, 'similarity': 6, 'is_ESG': 'no'}
+
+2022_report_title: 2022 Environmental, Social and Governance Report, 
+company_name: CNOOC Ltd, 
+2023_file_name: 2404021001151010.md
+predict: {'title': '2023 Annual Report', 'title_similarity': 7, 'similarity': 5, 'is_ESG': 'no'}
+
+2022_report_title: 2022 ESG Data Performance Book, 
+company_name: British American Tobacco PLC, 
+2023_file_name: BAT_Annual_Report_on_Form_20-F_2023.md
+predict: {'title': 'BAT Annual Report and Form 20-F 2023', 'title_similarity': 1, 'similarity': 1, 'is_ESG': 'no'}
+
+2022_report_title: Integrated Annual Report 2022, 
+company_name: Wal Mart de Mexico SAB de CV, 
+2023_file_name: walmart-inc-2023-annual-report.md
+predict: {'title': 'Walmart Inc. Annual Report on Form 10-K For the Fiscal Year Ended January 31, 2023', 'title_similarity': 3, 'similarity': 4, 'is_ESG': 'no'}
+
+2022_report_title: Sustainability Report2022, 
+company_name: UBS Group AG, 
+2023_file_name: sustainability-report-2023.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'UBS Group AG', 'fiscal_year': '2023'}
+
+2022_report_title: 20230304UBSGroupAG-CorporateResponsibility2023-3-04WC000000003005048241, 
+company_name: UBS Group AG, 
+2023_file_name: europe-se-pillar-3-3q23.md
+predict: {'title': 'UBS Europe SE | Pillar 3 Report for the quarter ended 30 September 2023', 'title_similarity': 2, 'similarity': 1, 'is_ESG': 'no'}
+
+2022_report_title: ESG Performance Report 2022, 
+company_name: GSK plc, 
+2023_file_name: esg-performance-report-2023.md
+predict: {'title': 'ESG Performance Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'GSK plc', 'fiscal_year': '2023'}
+
+2022_report_title: Corporate Social ResponsibilityReport 2022, 
+company_name: China Telecom Corp Ltd, 
+2023_file_name: csr2022.md
+predict: {'title': 'Corporate Social Responsibility Report 2022', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'China Telecom Corporation Limited', 'fiscal_year': '2022'}
+
+2022_report_title: Sustainability Report2022, 
+company_name: Enel SpA, 
+2023_file_name: sustainability-report_2023.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Enel SpA', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Vinci SA, 
+2023_file_name: 2023_annual_report_extract-sustainability.md
+predict: {'title': 'FORGING A SUSTAINABLE WORLD', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'VINCI', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Progress Report 2020-2023, 
+company_name: Kering SA, 
+2023_file_name: ?path=Kering_Sustainability_Progress_Report_2020_2023_7d06687606.md
+predict: {'title': 'Sustainability Progress Report 2020-2023', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Kering', 'fiscal_year': '2020-2023'}
+
+2022_report_title: sustainability-report-and-corporate-governance-report-2022, 
+company_name: Atlas Copco AB, 
+2023_file_name: 20240321-copy-of-the-official-annual-report-in-ESEF-format-incl-sustainability-report-and-corporate-governance-report-2023.md
+Error: 20240321-copy-of-the-official-annual-report-in-ESEF-format-incl-sustainability-report-and-corporate-governance-report-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 Corporate Social Responsibility Report, 
+company_name: Postal Savings Bank of China Co Ltd, 
+2023_file_name: P020230425541190362625.md
+predict: {'title': 'Corporate Social Responsibility Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Postal Savings Bank of China Co., Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: Annual Financial Report, 
+company_name: AXA SA, 
+2023_file_name: 96883b26-37fa-42fb-83f5-4f9aa9d9ad25_AXA_Management_Report_2023_VA.md
+predict: {'title': 'Activity report – Full Year 2023', 'title_similarity': 3, 'similarity': 3, 'is_ESG': 'no'}
+
+2022_report_title: Impact Report 2022, 
+company_name: AXA SA, 
+2023_file_name: 98533c34-199f-4395-9d84-ef00aeaeaadc_axa_impact_report_2023_va.md
+predict: {'title': 'Impact Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'AXA SA', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 SUSTAINABILITY & SOCIAL IMPACT REPORT, 
+company_name: Colgate-Palmolive Co, 
+2023_file_name: colgate-palmolive-sustainability-and-social-impact-final-report-2023.md
+predict: {'title': '2023 Sustainability & Social Impact Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Colgate-Palmolive Co', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Stakeholder Sustainability Report, 
+company_name: Moody's Corp, 
+2023_file_name: 2022-stakeholder-sustainability.md
+Error: 2022-stakeholder-sustainability.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: ANNUALREPORT2022, 
+company_name: Sberbank Rossii PAO, 
+2023_file_name: H2_AN202103241475580432_1.md
+predict: {'title': 'Sberbank Annual Report 2020', 'title_similarity': 6, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Sberbank Rossii PAO', 'fiscal_year': '2020'}
+
+2022_report_title: SUSTAINABILITY REPORT 2022, 
+company_name: Ferrari NV, 
+2023_file_name: Sustainability_Report_Ferrari_NV-2022.md
+predict: {'title': 'SUSTAINABILITY REPORT 2022', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Ferrari N.V.', 'fiscal_year': '2022'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Nongfu Spring Co Ltd, 
+2023_file_name: 6644dbed267d4ab6a2aab3d5a8e3e206.md
+predict: {'title': 'Sustainability Report 2022', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Nongfu Spring Co., Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: Sustainability 2022, 
+company_name: Deutsche Post AG, 
+2023_file_name: DPDHL-DigiFridays-Digi-x-ESG-02062023.md
+Error: DPDHL-DigiFridays-Digi-x-ESG-02062023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: SustainabilityReport 2022, 
+company_name: Saudi Telecom Company SJSC, 
+2023_file_name: SustainabilityReport-2022-en.md
+Error: SustainabilityReport-2022-en.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Sustainability Report 2022, 
+company_name: DBS Group Holdings Ltd, 
+2023_file_name: Notification%20to%20Shareholders.md
+predict: {'title': 'Sustainability Report for the financial year 2023', 'title_similarity': 8, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'DBS Group Holdings Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: Annual Report 2022, 
+company_name: Investor AB, 
+2023_file_name: 2699357.md
+Error: 2699357.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 SUSTAINABILITY REPORT, 
+company_name: Chipotle Mexican Grill Inc, 
+2023_file_name: 2023%20Report.md
+predict: {'title': '2023 SUSTAINABILITY REPORT', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Chipotle Mexican Grill Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: SUSTAINABILITY REPORT 2022, 
+company_name: London Stock Exchange Group PLC, 
+2023_file_name: lseg-sustainability-report.md
+predict: {'title': 'Annual Sustainability Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'London Stock Exchange Group plc', 'fiscal_year': '2023'}
+
+2022_report_title: CLIMATE REPORT 2022, 
+company_name: London Stock Exchange Group PLC, 
+2023_file_name: lseg-sustainability-report.md
+predict: {'title': 'Annual Sustainability Report 2023', 'title_similarity': 5, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'London Stock Exchange Group PLC', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ESG REPORT, 
+company_name: Bank of Nova Scotia, 
+2023_file_name: Scotiabank_2023_ESG_Report_Final.md
+predict: {'title': '2023 ESG REPORT', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Bank of Nova Scotia', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Annual Report on Sustainability, 
+company_name: Freeport-McMoRan Inc, 
+2023_file_name: 2023-annual-report-on-sustainability.md
+predict: {'title': '2023 Annual Report on Sustainability', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Freeport-McMoRan Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: Annual and Sustainability Report 2022, 
+company_name: Dr Ing hc F Porsche AG, 
+2023_file_name: PSE2023_Annual_Report_en.md
+Error: PSE2023_Annual_Report_en.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Sustainability Report 2022, 
+company_name: General Motors Co, 
+2023_file_name: GM_2023_SR.md
+predict: {'title': '2023 Sustainability Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'General Motors Company', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Sustainability Supplement, 
+company_name: General Motors Co, 
+2023_file_name: GM_2023_SR.md
+predict: {'title': '2023 Sustainability Report', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'General Motors Company', 'fiscal_year': '2023'}
+
+2022_report_title: 2022Annual Report, 
+company_name: Midea Group Co Ltd, 
+2023_file_name: MideaGroup-Annual-Report-2023-April-2024-pdf.md
+predict: {'title': 'The 2023 Annual Report of Midea Group Co., Ltd.', 'title_similarity': 7, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'Midea Group Co., Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: Corporate-Sustainability-Report-2022, 
+company_name: NXP Semiconductors NV, 
+2023_file_name: Corporate-Sustainability-Report-2023.md
+predict: {'title': 'NXP Corporate Sustainability Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'NXP Semiconductors', 'fiscal_year': '2023'}
+
+2022_report_title: Annual Report 2022, 
+company_name: Adyen NV, 
+2023_file_name: docu-20230511-annual%20general-meeting-adyen.md
+predict: {'title': 'Annual General Meeting 2023', 'title_similarity': 3, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: 20230331IntesaSanpaoloSpA-CorporateResponsibility2023-3-31WC000000003007520678, 
+company_name: Intesa Sanpaolo SpA, 
+2023_file_name: 2023_Climate_Report.md
+predict: {'title': '2023 Climate Report', 'title_similarity': 2, 'similarity': 3, 'is_ESG': 'no'}
+
+2022_report_title: 2022 TCFD Report, 
+company_name: Intesa Sanpaolo SpA, 
+2023_file_name: 2023_Climate_Report.md
+Error: 2023_Climate_Report.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 ESG Report, 
+company_name: Trane Technologies PLC, 
+2023_file_name: 2023-Assurance-Statement.md
+predict: {'title': 'Independent Limited Assurance Report to Trane Technologies plc', 'title_similarity': 3, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'Trane Technologies plc', 'fiscal_year': '2023'}
+
+2022_report_title: 2022ENV IRONMEN TA LSOCIAL ANDGOVERNANCEREPORT, 
+company_name: Las Vegas Sands Corp, 
+2023_file_name: SANDS-ESG-Report-2023.md
+predict: {'title': '2023 ENVIRONMENTAL SOCIAL AND GOVERNANCE REPORT', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Las Vegas Sands Corp', 'fiscal_year': '2023'}
+
+2022_report_title: Truist 2022 TCFD Report, 
+company_name: Truist Financial Corp, 
+2023_file_name: truist-2022-tcfd.md
+predict: {'title': 'Truist 2022 TCFD Report', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Truist Financial Corporation', 'fiscal_year': '2022'}
+
+2022_report_title: Environmental, Social and Governance Report 2022, 
+company_name: Capital One Financial Corp, 
+2023_file_name: corporate_governance_statement_2023.md
+predict: {'title': 'CORPORATE GOVERNANCE REPORT', 'title_similarity': 3, 'similarity': 5, 'is_ESG': 'no'}
+
+2022_report_title: 2022 Environmental, Socialand Governance Report, 
+company_name: Zijin Mining Group Co Ltd, 
+2023_file_name: 9447f9fd90d340599b2f2de69f218790.md
+predict: {'title': '2023 Environmental, Social and Governance Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Zijin Mining Group Co., Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: 20230331OverseaChineseBankingCorpL-CorporateResponsibility2023-3-31WC000000003007402917, 
+company_name: Oversea-Chinese Banking Corporation Ltd, 
+2023_file_name: ocbc-sustainability-report-2023.md
+predict: {'title': 'OCBC Sustainability Report 2023', 'title_similarity': 2, 'similarity': 3, 'is_ESG': 'yes', 'corporate_entity': 'Oversea-Chinese Banking Corporation Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Oversea-Chinese Banking Corporation Ltd, 
+2023_file_name: ocbc-sustainability-report-2023.md
+predict: {'title': 'OCBC Sustainability Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Oversea-Chinese Banking Corporation Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: Annual and Sustainability Report 2022, 
+company_name: Oversea-Chinese Banking Corporation Ltd, 
+2023_file_name: 2023-annual-report-en.md
+predict: {'title': 'OCBC Annual Report 2023', 'title_similarity': 6, 'similarity': 6, 'is_ESG': 'no'}
+
+2022_report_title: 2022 ESG REPORT, 
+company_name: Hilton Worldwide Holdings Inc, 
+2023_file_name: Hilton-2022-Environmental-Social-and-Governance-Report.md
+predict: {'title': 'HILTON 2022 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Hilton Worldwide Holdings Inc', 'fiscal_year': '2022'}
+
+2022_report_title: 2022年社会责任报告, 
+company_name: CITIC Securities Co Ltd, 
+2023_file_name: P020240326768059532318.md
+predict: {'title': 'CITIC Securities 2023 Social Responsibility Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'CITIC Securities Co Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: 20230505BeijingShanghaiHighSpeedRa-CorporateResponsibility2023-5-05SD000000003010652057, 
+company_name: Beijing-Shanghai High Speed Railway Co Ltd, 
+2023_file_name: 2023%20Annual%20Report.md
+predict: {'title': 'CHINA RAILWAY GROUP LIMITED 2023 ANNUAL REPORT', 'title_similarity': 2, 'similarity': 1, 'is_ESG': 'no'}
+
+2022_report_title: 20230323PrudentialPLC-CorporateResponsibility2023-3-23WC000000003006656597, 
+company_name: Prudential PLC, 
+2023_file_name: sustainability-report-2023.md
+Error: sustainability-report-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: SUSTAINABILITY REPORT 2022, 
+company_name: Dubai Electricity and Water Authority PJSC, 
+2023_file_name: A34881D1-7CB7-4A2D-8D12-7C98B555E6C4.md
+predict: {'title': 'DEWA PJSC Integrated Report 2023', 'title_similarity': 6, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Dubai Electricity and Water Authority PJSC', 'fiscal_year': '2023'}
+
+2022_report_title: SUSTAINABILITYREPORT 2022, 
+company_name: Bayan Resources Tbk PT, 
+2023_file_name: sr-bayan-2023-versi-complete_1.md
+predict: {'title': 'SUSTAINABILITY REPORT 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'PT Bayan Resources Tbk', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Sustainability Report, 
+company_name: China Citic Bank Corp Ltd, 
+2023_file_name: P020240321716819180012.md
+predict: {'title': 'China CITIC Bank Corporation Limited 2023 Sustainability Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'China CITIC Bank Corporation Limited', 'fiscal_year': '2023'}
+
+2022_report_title: Annual Report & Accounts 2022, 
+company_name: Flutter Entertainment PLC, 
+2023_file_name: flutter-entertainment-plc-annual-report-and-accounts-2023-10-k_updated.md
+predict: {'title': 'Annual Report and Accounts 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Flutter Entertainment PLC', 'fiscal_year': '2023'}
+
+2022_report_title: INTEGRATED REPORT 2022, 
+company_name: Fanuc Corp, 
+2023_file_name: financialresult202203_e.md
+predict: {'title': 'Consolidated Annual Financial Results', 'title_similarity': 3, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: 2022可持续发展报告, 
+company_name: China State Construction Engineering Corp Ltd, 
+2023_file_name: P020240517639005837411.md
+predict: {'title': '2022-2023 CSCEC SINGAPORE SUSTAINABILITY REPORT', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'China State Construction Engineering Corp Ltd (CSCEC) Singapore', 'fiscal_year': '2022-2023'}
+
+2022_report_title: Sustainability Report 2023, 
+company_name: Dupont De Nemours Inc, 
+2023_file_name: DuPont_2024SustainabilityReport-Appendix.md
+predict: {'title': '2024 Sustainability Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'DuPont de Nemours, Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Swiss Re AG, 
+2023_file_name: 2023-sustainability-report-en.md
+Error: 2023-sustainability-report-en.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Annual Integrated Report 2022, 
+company_name: Assicurazioni Generali SpA, 
+2023_file_name: Annual_Integrated_Report_and_Consolidated_Financial_Statements_2023_Generali_Group_final_interactive.md
+predict: {'title': 'Annual Integrated Report and Consolidated Financial Statements 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Assicurazioni Generali SpA', 'fiscal_year': '2023'}
+
+2022_report_title: Equity & ImpactReport 2022, 
+company_name: Spotify Technology SA, 
+2023_file_name: Spotify-Equity-Impact-Report-2023.md
+predict: {'title': 'Equity & Impact Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Spotify Technology SA', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Sustainability Report, 
+company_name: BOC Hong Kong Holdings Ltd, 
+2023_file_name: SustainabilityReport2022_en.md
+Error: SustainabilityReport2022_en.md Extra data: line 1 column 2 (char 1)
+2022_report_title: 2022 年可持续发展报告, 
+company_name: Ping An Bank Co Ltd, 
+2023_file_name: pingan-sustainability-report-22.md
+predict: {'title': 'Ping An Sustainability Report 2022', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Ping An Insurance (Group) Company of China, Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: ENVIRONMENTAL, SOCIAL ANDGOVERNANCE REPORT 2022, 
+company_name: Kuaishou Technology, 
+2023_file_name: 893189%20E_KUAISHOU-W_ESG_0422_1617_book.md
+Error: 893189%20E_KUAISHOU-W_ESG_0422_1617_book.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Sustainability Report2022, 
+company_name: Hexagon AB, 
+2023_file_name: Hexagon-Annual-Report-and-Sustainability-Report-2023.md
+Error: Hexagon-Annual-Report-and-Sustainability-Report-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Sustainability Report2022 Performance, 
+company_name: Sun Life Financial Inc, 
+2023_file_name: sustainability-report-2023-e.md
+predict: {'title': 'Sustainability Report 2023 Performance', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Sun Life Financial Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 SUSTAINABILITY REPORT, 
+company_name: LyondellBasell Industries NV, 
+2023_file_name: 2023_lyb_sustainability_report.md
+Error: 2023_lyb_sustainability_report.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Sustainability Report 2022, 
+company_name: Kbc Groep NV, 
+2023_file_name: csr-sr-2023.md
+Error: csr-sr-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 20230427ChinaResourcesLandLtd-CorporateResponsibility2023-4-27SL000000003009817091, 
+company_name: China Resources Land Ltd, 
+2023_file_name: P020240426692606111496.md
+predict: {'title': 'China Resources Land Sustainability Report', 'title_similarity': 6, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'China Resources Land Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ENVIRONMENTAL, SOCIAL and GOVERNANCE REPORT, 
+company_name: Beijing Kingsoft Office Software Inc, 
+2023_file_name: 2024041901109.md
+predict: {'title': '2023 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Kingsoft Corporation Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 20230330SandsChinaLtd-CorporateResponsibility2023-3-30SL000000003007302894, 
+company_name: Sands China Ltd, 
+2023_file_name: SANDS-ESG-Report-2023.md
+predict: {'title': '2023 ESG Report', 'title_similarity': 3, 'similarity': 4, 'is_ESG': 'yes', 'corporate_entity': 'Las Vegas Sands', 'fiscal_year': '2023'}
+
+2022_report_title: ENVIRONMENTAL, SOCIALAND GOVERNANCE REPORT2022, 
+company_name: ANTA Sports Products Ltd, 
+2023_file_name: 2024041000470.md
+predict: {'title': 'ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'ANTA Sports Products Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 20230719GalaxyEntertainmentGroupLtd-CorporateResponsibility2023-7-19SD000000003017074817, 
+company_name: Galaxy Entertainment Group Ltd, 
+2023_file_name: 552ce703b43903dda4f7fa9ed7640e95c9c4e6a4.md
+predict: {'title': 'Environmental, Social and Governance Report 2023', 'title_similarity': 5, 'similarity': 5, 'is_ESG': 'yes', 'corporate_entity': 'Galaxy Entertainment Group Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ESG Data Sheet, 
+company_name: Telus Corp, 
+2023_file_name: TELUS_ESG_Data_Sheet_2023_EN.md
+Error: TELUS_ESG_Data_Sheet_2023_EN.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 20230328NaturgyEnergyGroupSA-CorporateResponsibility2023-3-28WC000000003007027906, 
+company_name: Naturgy Energy Group SA, 
+2023_file_name: ISEINF23-eng.md
+predict: {'title': 'Sustainability Report and Non-Financial Information Statement 2023', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Naturgy Energy Group SA', 'fiscal_year': '2023'}
+
+2022_report_title: 2022ESG Report, 
+company_name: Franco-Nevada Corp, 
+2023_file_name: Franco-Nevada-Launches-2023-ESG-Report-and-Asset-Handbook-04-17-2023-vFFF.md
+predict: {'title': '2023 ESG Report', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Franco-Nevada Corporation', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Impact Report, 
+company_name: Riyad Bank SJSC, 
+2023_file_name: Annual%20Report%20for%20the%20year%20ended%20%2031-12-2023.md
+predict: {'title': 'Board of Directors Report 2023', 'title_similarity': 3, 'similarity': 4, 'is_ESG': 'no'}
+
+2022_report_title: 20230315ZTECorp-CorporateResponsibility2023-3-15SL000000003005870199, 
+company_name: ZTE Corp, 
+2023_file_name: 2024032600858.md
+predict: {'title': 'ZTE Corporation 2023 Sustainability Report', 'title_similarity': 7, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'ZTE Corporation', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT, 
+company_name: Royal Caribbean Cruises Ltd, 
+2023_file_name: Sustainability-Report-2023.md
+predict: {'title': '2023 Environmental, Social and Governance Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Royal Caribbean Group', 'fiscal_year': '2023'}
+
+2022_report_title: Annual Report - 2022, 
+company_name: Nestle India Ltd, 
+2023_file_name: 17-3-Annual-Report-2022.md
+predict: {'title': 'Annual Report - 2022', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Nestlé India Ltd', 'fiscal_year': '2022'}
+
+2022_report_title: 20230317NestleIndiaLtd-CorporateResponsibility2023-3-17SD000000003015213798, 
+company_name: Nestle India Ltd, 
+2023_file_name: nestle-finance-international-ltd-fullyear-financial-report-2022-en.md
+predict: {'title': 'Nestlé Finance International Ltd. Annual Financial Report for the year ended 31 December 2022', 'title_similarity': 2, 'similarity': 0, 'is_ESG': 'no'}
+
+2022_report_title: Environmental, Socialand Governance Report2022, 
+company_name: Hang Seng Bank Ltd, 
+2023_file_name: full_report.md
+predict: {'title': 'Environmental, Social and Governance Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Hang Seng Bank Limited', 'fiscal_year': '2023'}
+
+2022_report_title: SOCIAL IMPACT & ESG REPORT 2022, 
+company_name: Intact Financial Corp, 
+2023_file_name: IFC-2023-Social-Impact-and-ESG-Report_EN.md
+predict: {'title': '2023 Social Impact & ESG Report', 'title_similarity': 8, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Intact Financial Corporation', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Sustainability Report, 
+company_name: BioNTech SE, 
+2023_file_name: BNTX%20Q4%202023%20Press%20Release_EN_post-issuance%20update.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'BioNTech SE', 'fiscal_year': '2023'}
+
+2022_report_title: 2022Integratedreport, 
+company_name: Legrand SA, 
+2023_file_name: Legrand_URD_2023_VDEF_1712914094.md
+predict: {'title': '2023 Universal Registration Document', 'title_similarity': 5, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Legrand SA', 'fiscal_year': '2023'}
+
+2022_report_title: 2022社会责任报告, 
+company_name: Shaanxi Coal Industry Co Ltd, 
+2023_file_name: d07a19bd8c9e48828df2442e9df0fc6d.md
+predict: {'title': 'China Coal Energy ESG Report 2023', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'China Coal Energy Company Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 2022年度环境、社会与管治报告暨社会责任报告, 
+company_name: China Railway Group Ltd, 
+2023_file_name: 2024040100349_c.md
+predict: {'title': '中国中铁2023年度环境、社会与管治报告暨社会责任报告', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': '中国中铁股份有限公司', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ESG Report, 
+company_name: National Bank of Canada, 
+2023_file_name: report-esg-2023.md
+predict: {'title': 'Report on Environmental, Social and Governance (ESG) Advances 2023', 'title_similarity': 8, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'National Bank of Canada', 'fiscal_year': '2023'}
+
+2022_report_title: Impact 2022 Report, 
+company_name: eBay Inc, 
+2023_file_name: eBay-Impact-2023-Report.md
+predict: {'title': '2023 Impact Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'eBay Inc', 'fiscal_year': '2023'}
+
+2022_report_title: 2022可持续发展报告, 
+company_name: Sungrow Power Supply Co Ltd, 
+2023_file_name: Sungrow%202023%20Sustainability%20Report.md
+Error: Sungrow%202023%20Sustainability%20Report.md Extra data: line 10 column 1 (char 189)
+2022_report_title: Corporate Sustainability Report 2022, 
+company_name: Partners Group Holding AG, 
+2023_file_name: sustainability-report-2023.md
+Error: sustainability-report-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: SUSTAINABILITY REPORT 2022, 
+company_name: Church & Dwight Co Inc, 
+2023_file_name: 2023-Sustainability-Report.md
+predict: {'title': 'SUSTAINABILITY REPORT 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Church & Dwight Co Inc', 'fiscal_year': '2023'}
+
+2022_report_title: Annual Report 2022, 
+company_name: Standard Chartered PLC, 
+2023_file_name: PR-095-STANDARD-CHARTERED-BANK-PLC-ANNUAL-REPORT-AND-CONSOLIDATED-FINANCIAL-STATEMENTS-FOR-THE-YEAR-ENDED-DECEMBER-31-2023-1.md
+predict: {'title': 'ANNUAL REPORT AND CONSOLIDATED FINANCIAL STATEMENTS', 'title_similarity': 8, 'similarity': 8, 'is_ESG': 'no'}
+
+2022_report_title: 2022年度社会责任报告, 
+company_name: Aier Eye Hospital Group Co Ltd, 
+2023_file_name: spr2023cn.md
+predict: {'title': '2023年度社会责任报告', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': '爱尔眼科医院集团股份有限公司', 'fiscal_year': '2023'}
+
+2022_report_title: ANNUAL REPORT2022, 
+company_name: Sandvik AB, 
+2023_file_name: 2664685.md
+predict: {'title': 'Annual Report 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Sandvik AB', 'fiscal_year': '2023'}
+
+2022_report_title: H & M Hennes & Mauritz AB Corporate Responsibility 2023331 WC000000003007446387, 
+company_name: H & M Hennes & Mauritz AB, 
+2023_file_name: HM-Group-Sustainability-Disclosure-2023.md
+predict: {'title': 'Sustainability Disclosure 2023', 'title_similarity': 2, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'H&M Group', 'fiscal_year': '2023'}
+
+2022_report_title: Annual and Sustainability Report 2022, 
+company_name: H & M Hennes & Mauritz AB, 
+2023_file_name: HM-Group-Annual-and-Sustainability-Report-2023.md
+Error: HM-Group-Annual-and-Sustainability-Report-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 Sustainability Report, 
+company_name: Yum China Holdings Inc, 
+2023_file_name: 2023.md
+predict: {'title': 'Yum China 2023 Sustainability Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Yum China Holdings Inc', 'fiscal_year': '2023'}
+
+2022_report_title: CSC Financial Co Ltd Corporate Responsibility 2023330 SL000000003007343921, 
+company_name: China Securities Co Ltd, 
+2023_file_name: 2023033004432.md
+predict: {'title': '2022 Social Responsibility & Environmental, Social and Governance (ESG) Report', 'title_similarity': 5, 'similarity': 6, 'is_ESG': 'yes', 'corporate_entity': 'CSC Financial Co., Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: China Everbright Bank Co Ltd Corporate Responsibility 2023324 SL000000003006755646, 
+company_name: China Everbright Bank Co Ltd, 
+2023_file_name: 46e9e604-5282-45de-9ccd-a7378a14bec3.md
+predict: {'title': 'China Merchants Bank Co., Ltd. Sustainability Report 2023', 'title_similarity': 4, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'China Merchants Bank Co., Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: SustainabilityReport 2022, 
+company_name: Sartorius AG, 
+2023_file_name: SSB_Business_Report_2023.md
+predict: {'title': 'Favorable demographics', 'title_similarity': 3, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: SustainabilityReport 2022, 
+company_name: Sartorius Stedim Biotech SA, 
+2023_file_name: 2023-sustainability-report-en-pdf-data.md
+Error: 2023-sustainability-report-en-pdf-data.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 Sustainability Repor, 
+company_name: CK Hutchison Holdings Ltd, 
+2023_file_name: e_CKHH_AR_2023_full_20240321.md
+predict: {'title': '2023 Annual Results', 'title_similarity': 4, 'similarity': 5, 'is_ESG': 'yes', 'corporate_entity': 'CK Hutchison Holdings Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Malayan Banking Bhd, 
+2023_file_name: Maybank-Sustainability-Report-2023.md
+predict: {'title': 'Maybank Sustainability Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Malayan Banking Bhd', 'fiscal_year': '2023'}
+
+2022_report_title: ArcelorMittal IntegratedAnnual Review 2022, 
+company_name: ArcelorMittal SA, 
+2023_file_name: annual-report-2023.md
+predict: {'title': 'ArcelorMittal Annual Report 2023', 'title_similarity': 9, 'similarity': 8, 'is_ESG': 'no'}
+
+2022_report_title: Corporate Sustainability Report 2022, 
+company_name: Sampo Oyj, 
+2023_file_name: sampo2023_sustainability_report.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Sampo Group', 'fiscal_year': '2023'}
+
+2022_report_title: Annual andSustainabilityReport 2022, 
+company_name: EQT AB, 
+2023_file_name: 2674429.md
+Error: 2674429.md Extra data: line 10 column 1 (char 188)
+2022_report_title: 2022 Environmental,Social and Governance Report, 
+company_name: CGI Inc, 
+2023_file_name: cgi-2023-esg-report-en.md
+predict: {'title': '2023 Environmental, Social and Governance Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'CGI Inc', 'fiscal_year': '2023'}
+
+2022_report_title: sustainability report 2022, 
+company_name: Teck Resources Ltd, 
+2023_file_name: 2023-Sustainability-Report.md
+predict: {'title': '2023 Sustainability Report', 'title_similarity': 9, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Church & Dwight', 'fiscal_year': '2023'}
+
+2022_report_title: Annual and Sustainability Report 2022, 
+company_name: Epiroc AB, 
+2023_file_name: Epiroc%20Annual%20and%20Sustainability%20Report%202023.md
+Error: Epiroc%20Annual%20and%20Sustainability%20Report%202023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: China Minsheng Banking Corp Lt Corporate Responsibility 2023327 SL000000003006948504, 
+company_name: China Minsheng Banking Corp Ltd, 
+2023_file_name: 2023032701420.md
+predict: {'title': 'China Minsheng Banking Corp., Ltd. 2022 ESG Report', 'title_similarity': 4, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'China Minsheng Banking Corp., Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: Non-Financial Report 2022, 
+company_name: Deutsche Bank AG, 
+2023_file_name: Non-Financial-Report-2023.md
+Error: Non-Financial-Report-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022Sustainability Report, 
+company_name: COSCO Shipping Holdings Co Ltd, 
+2023_file_name: quality2022en.md
+predict: {'title': '2022 Sustainability Report', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'COSCO SHIPPING Lines Co., Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: ENVIRONMENTAL, SOCIALAND GOVERNANCE REPORT2022, 
+company_name: Howmet Aerospace Inc, 
+2023_file_name: 2022-Environmental-Social-and-Governance-Report.md
+Error: 2022-Environmental-Social-and-Governance-Report.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Environmental, Social and Governance Report 2022, 
+company_name: WuXi Biologics (Cayman) Inc, 
+2023_file_name: 2024042902932.md
+predict: {'title': 'WuXi XDC Cayman Inc. Environmental, Social and Governance Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'WuXi XDC Cayman Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 CORPORATE SUSTAINABILITY REPORT, 
+company_name: Garmin Ltd, 
+2023_file_name: SASB_2023.md
+predict: {'title': '2023 SASB REPORT', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Garmin Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: Environmental,Social andGovernanceReport 2023, 
+company_name: Zoom Video Communications Inc, 
+2023_file_name: Uber-2024-Environmental-Social-and-Governance-Report.md
+predict: {'title': 'Uber 2024 Environmental, Social, and Governance Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Uber', 'fiscal_year': '2024'}
+
+2022_report_title: 2022 INTEGRATED REPORT, 
+company_name: SM Investments Corp, 
+2023_file_name: Disclosure-No.-2065-2023-Integrated-Annual-Corporate-Governance-Report-For-the-Year-Ended-December-31-2022.md
+Error: Disclosure-No.-2065-2023-Integrated-Annual-Corporate-Governance-Report-For-the-Year-Ended-December-31-2022.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Annual Integrated Report 2022, 
+company_name: Dai-ichi Life Holdings Inc, 
+2023_file_name: 2022_index_phone.md
+predict: {'title': 'Financial Results for the Fiscal Year Ended March 31, 2023', 'title_similarity': 2, 'similarity': 1, 'is_ESG': 'no'}
+
+2022_report_title: 2022 ESG Report, 
+company_name: China Tower Corp Ltd, 
+2023_file_name: esr.md
+Error: esr.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022年社会责任报告, 
+company_name: Sany Heavy Industry Co Ltd, 
+2023_file_name: %E4%B8%89%E4%B8%80%E9%87%8D%E5%B7%A52022%E5%B9%B4%E5%BA%A6%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB%E6%8A%A5%E5%91%8A.md
+predict: {'title': '2022年 三一重工社会责任报告', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': '三一重工股份有限公司', 'fiscal_year': '2022'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: CK Asset Holdings Ltd, 
+2023_file_name: 202404_EN_Sustainability_Report.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'CK Asset Holdings Limited', 'fiscal_year': '2023'}
+
+2022_report_title: Swedbank AB Corporate Responsibility 2023303 WC000000003004836951, 
+company_name: Swedbank AB, 
+2023_file_name: 2621746.md
+predict: {'title': 'Swedbank Annual and Sustainability Report 2023', 'title_similarity': 4, 'similarity': 5, 'is_ESG': 'yes', 'corporate_entity': 'Swedbank AB', 'fiscal_year': '2023'}
+
+2022_report_title: Swedbank AB Corporate Responsibility 2023308 WC000000003005248523, 
+company_name: Swedbank AB, 
+2023_file_name: 2621746.md
+predict: {'title': 'Annual and Sustainability Report 2023', 'title_similarity': 5, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'Swedbank AB', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Sustainability Report, 
+company_name: CLP Holdings Ltd, 
+2023_file_name: CLP_Sustainability_Report_2023_en.md
+predict: {'title': '2023 Sustainability Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'CLP Holdings Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: Moncler SpA Corporate Responsibility 2023614 WC000000003014324968, 
+company_name: Moncler SpA, 
+2023_file_name: Moncler-Group-Annual-Report-2023.md
+predict: {'title': 'ANNUAL REPORT 2023 – MONCLER GROUP', 'title_similarity': 3, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: 2022 Environmental, Social and Governance Report, 
+company_name: Yankuang Energy Group Co Ltd, 
+2023_file_name: 2023032400861.md
+predict: {'title': '2022 Environmental, Social and Governance Report', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Yankuang Energy Group Company Limited', 'fiscal_year': '2022'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Suzuki Motor Corp, 
+2023_file_name: 2023e_all.md
+predict: {'title': 'Mazda Sustainability Report 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Mazda Motor Corporation', 'fiscal_year': '2023'}
+
+2022_report_title: Annual Report2022 , 
+company_name: Telefonaktiebolaget LM Ericsson, 
+2023_file_name: 2649308.md
+predict: {'title': 'Ericsson Annual Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Telefonaktiebolaget LM Ericsson', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Antofagasta PLC, 
+2023_file_name: antofagasta-minerals-sustainability-report.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Antofagasta Minerals', 'fiscal_year': '2023'}
+
+2022_report_title: 2022ENVIRONMENTAL, SOCIAL AND GOVERNANCE (ESG) REPORT, 
+company_name: China Longyuan Power Group Corp Ltd, 
+2023_file_name: 2024032701926.md
+predict: {'title': '2023 ENVIRONMENTAL, SOCIAL AND GOVERNANCE (ESG) REPORT', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'China Longyuan Power Group Corporation Limited', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Skyworks Solutions Inc, 
+2023_file_name: SustainabilityReport2022.md
+predict: {'title': 'Sustainability Report 2022', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Skyworks Solutions Inc', 'fiscal_year': '2022'}
+
+2022_report_title: Annual Report 2022, 
+company_name: Geberit AG, 
+2023_file_name: geberit-half-year-report-2023.md
+predict: {'title': 'GEBERIT GROUP HALF-YEAR REPORT 2023', 'title_similarity': 5, 'similarity': 6, 'is_ESG': 'no'}
+
+2022_report_title: Business & Sustainability Update 2022, 
+company_name: Ball Corp, 
+2023_file_name: CDP-Climate-2023.md
+Error: CDP-Climate-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022社会责任报告, 
+company_name: Air China Ltd, 
+2023_file_name: 25F7D91F8F9E7B4ECB1D7BD9D0EEE4AB.md
+predict: {'title': 'Air China Limited 2022 Corporate Social Responsibility Report', 'title_similarity': 8, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'Air China Limited', 'fiscal_year': '2022'}
+
+2022_report_title: 2022 年度社会责任报告, 
+company_name: Huaneng Power International Inc, 
+2023_file_name: 600011_20240320_8JE8.md
+predict: {'title': '2023年年度报告', 'title_similarity': 4, 'similarity': 4, 'is_ESG': 'no'}
+
+2022_report_title: Environmental, Social and Governance Report 2022 , 
+company_name: Will Semiconductor Co Ltd Shanghai, 
+2023_file_name: 202352788323.md
+predict: {'title': 'Environmental, Social and Governance Report 2022', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Will Semiconductor Co., Ltd. Shanghai', 'fiscal_year': '2022'}
+
+2022_report_title: 2022年 社会责任报告, 
+company_name: TCL Zhonghuan Renewable Energy Technology Co Ltd, 
+2023_file_name: 202458014109.md
+predict: {'title': 'TCL中环新能源科技股份有限公司2023年年度报告', 'title_similarity': 1, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: 2022CORPORATE RESPONSIBILITY REPORT, 
+company_name: Tyler Technologies Inc, 
+2023_file_name: Tyler-2023-CRR-Report.md
+predict: {'title': 'Corporate Responsibility Report', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Tyler Technologies Inc', 'fiscal_year': '2023'}
+
+2022_report_title: JA Solar Technology Co Ltd Corporate Responsibility 2023426 WC000000003009643693, 
+company_name: JA Solar Technology Co Ltd, 
+2023_file_name: 20230522055206325.md
+predict: {'title': 'JA Solar Sustainability Report and ESG Report 2022', 'title_similarity': 2, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'JA Solar Technology Co., Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: 20230323SwissLifeHoldingAG-CorporateResponsibility2023-3-23WC000000003006715741, 
+company_name: Swiss Life Holding AG, 
+2023_file_name: Swiss_Life_Sustainability_Report_2023.md
+Error: Swiss_Life_Sustainability_Report_2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: TCFD Report 2022, 
+company_name: Swiss Life Holding AG, 
+2023_file_name: Swiss_Life_TCFD_Report_2023_en.md
+predict: {'title': 'TCFD Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Swiss Life Holding AG', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 INTEGRATED REPORT, 
+company_name: Coca-Cola Femsa SAB de CV, 
+2023_file_name: KOF-publishes-2023-Integrated-Annual-Report.md
+predict: {'title': '2023 Integrated Annual Report: Future-Ready – Driving Growth', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Coca-Cola FEMSA, S.A.B. de C.V.', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Kerry Group PLC, 
+2023_file_name: KGAR_2023_Sustainability_Report.md
+predict: {'title': 'Beyond the Horizon Sustainability Report 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Kerry Group PLC', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 SOCIAL RESPONSIBILITY REPORT, 
+company_name: Huatai Securities Co Ltd, 
+2023_file_name: 7246I_1-2024-3-28.md
+predict: {'title': '2023 SOCIAL RESPONSIBILITY REPORT', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Huatai Securities Co., Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: Integrated Annual Report 2022, 
+company_name: Emaar Properties PJSC, 
+2023_file_name: EMAAR_Integrated%20Report_2023%20-%20English.md
+predict: {'title': 'Integrated Annual Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Emaar Properties PJSC', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ESG REPORT, 
+company_name: Sun Communities Inc, 
+2023_file_name: 2023-sun-esg-report-april11-final.md
+predict: {'title': '2023 ESG REPORT', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Sun Communities Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Sustainability Report, 
+company_name: IDEX Corp, 
+2023_file_name: IDEX_SustainabilityReport2022.md
+Error: IDEX_SustainabilityReport2022.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022年社会责任报告, 
+company_name: Rongsheng Petrochemical Co Ltd, 
+2023_file_name: 202457958196.md
+predict: {'title': '2023 年年度报告全文', 'title_similarity': 3, 'similarity': 3, 'is_ESG': 'no'}
+
+2022_report_title: green bond report 2022, 
+company_name: UPM-Kymmene Oyj, 
+2023_file_name: upm-green-bond-report-2023.md
+predict: {'title': 'UPM GREEN BOND REPORT 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'UPM-Kymmene Oyj', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Sustainability Report, 
+company_name: CP All PCL, 
+2023_file_name: CP-ALL-SD-2022.md
+Error: CP-ALL-SD-2022.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: NIBE INDUSTRIER AB ANNUAL REPORT 2022, 
+company_name: Nibe Industrier AB, 
+2023_file_name: GB-AR2023-PM.md
+Error: GB-AR2023-PM.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: SustainabilityStatement, 
+company_name: Public Bank Bhd, 
+2023_file_name: e_ESG%20E00626.md
+predict: {'title': 'ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT 2022', 'title_similarity': 8, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Public Financial Holdings Limited', 'fiscal_year': '2022'}
+
+2022_report_title: Annual Integrated Report 2022, 
+company_name: Standard Bank Group Ltd, 
+2023_file_name: SBSA_AnnualReport.md
+predict: {'title': 'Standard Bank of South Africa Annual Integrated Report 2023', 'title_similarity': 8, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'Standard Bank of South Africa', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 2023Integrated Report, 
+company_name: Edenred SE, 
+2023_file_name: 2022-2023-en-edenred-integrated-report.md
+predict: {'title': 'BEYOND 2022 2023 Integrated Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Edenred SE', 'fiscal_year': '2022-2023'}
+
+2022_report_title: Sustainabilityreport 2022, 
+company_name: Aker BP ASA, 
+2023_file_name: aker-bp-annual-report-2023.md
+Error: aker-bp-annual-report-2023.md Extra data: line 1 column 2 (char 1)
+2022_report_title: Sustainability Report 2022, 
+company_name: Tianqi Lithium Corp, 
+2023_file_name: 2024043000583.md
+predict: {'title': 'SUSTAINABILITY REPORT 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Tianqi Lithium Corporation', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Environmental, Social, and Governance Report , 
+company_name: CMOC Group Ltd, 
+2023_file_name: 20240323020318888.md
+predict: {'title': '2023 Environmental, Social, and Governance Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'CMOC Group Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Gulf Energy Development PCL, 
+2023_file_name: EN_One_R_Gulf_2023.md
+predict: {'title': 'Form 56-1 One Report 2023 (Annual Report)', 'title_similarity': 2, 'similarity': 4, 'is_ESG': 'no'}
+
+2022_report_title: Annual Report 2022, 
+company_name: Fresenius SE & Co KGaA, 
+2023_file_name: Fresenius_Annual_Report_2023.md
+predict: {'title': 'Annual Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Fresenius SE & Co KGaA', 'fiscal_year': '2023'}
+
+2022_report_title: ENVIRONMENTAL, Social & Governance Report 2022, 
+company_name: AerCap Holdings NV, 
+2023_file_name: AerCap+ESG+Report+2023.md
+predict: {'title': 'AERCAP ENVIRONMENTAL, SOCIAL & GOVERNANCE REPORT FOR THE YEAR 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'AerCap Holdings NV', 'fiscal_year': '2023'}
+
+2022_report_title: 2022Sustainability Report, 
+company_name: Factset Research Systems Inc, 
+2023_file_name: 2023%20gri%20and%20sasb%20index.md
+predict: {'title': 'Sustainability Report', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'FactSet Research Systems Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: EnvironmentalSocialGovernanceReport 2022, 
+company_name: Essex Property Trust Inc, 
+2023_file_name: 2023_Essex_ESG_Report.md
+Error: 2023_Essex_ESG_Report.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022年社会责任报告, 
+company_name: China Southern Airlines Co Ltd, 
+2023_file_name: 2c7a500a697bff4055d4df242dddf9b7.md
+predict: {'title': '2023 Corporate Social Responsibility Report of China Southern', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'China Southern Airlines Co., Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Environmental, Social and Governance Report, 
+company_name: Weichai Power Co Ltd, 
+2023_file_name: 2024041801644.md
+predict: {'title': '2023 Environmental, Social and Governance Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Weichai Power Co Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: ESG Report2022, 
+company_name: Interpublic Group of Companies Inc, 
+2023_file_name: IPG-ESG-2022-Report-Final.md
+predict: {'title': 'ESG Report 2022', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Interpublic Group of Companies Inc', 'fiscal_year': '2022'}
+
+2022_report_title: 2022企业社会责任报告暨ESG (环境、社会及公司治理)报告, 
+company_name: China Shipbuilding Industry Co Ltd, 
+2023_file_name: 601989_20240427_1UN7.md
+predict: {'title': '中国重工2023年年度报告', 'title_similarity': 4, 'similarity': 5, 'is_ESG': 'no'}
+
+2022_report_title: 2022 ESG Report, 
+company_name: Revvity Inc, 
+2023_file_name: Revvity-Debuts-Inaugural-ESG-Report-2023.md
+predict: {'title': 'Revvity Debuts Inaugural ESG Report', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Revvity Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: 2022年度社会责任报告, 
+company_name: Chongqing Zhifei Biological Products Co Ltd, 
+2023_file_name: 202457764200.md
+predict: {'title': '2023 年社会责任报告', 'title_similarity': 8, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': '重庆智飞生物制品股份有限公司', 'fiscal_year': '2023'}
+
+2022_report_title: Annual andSustainability Report2022, 
+company_name: Heidelberg Materials AG, 
+2023_file_name: FY%202023%20Presentation.md
+predict: {'title': '2023 Full Year Results', 'title_similarity': 3, 'similarity': 3, 'is_ESG': 'no'}
+
+2022_report_title: 2022 CORPORATE SOCIALRESPONSIBILITY REPORT, 
+company_name: GF Securities Co Ltd, 
+2023_file_name: 2023033003456.md
+predict: [{'title': 'GF SECURITIES 2022 Social Responsibility and Environmental, Social and Governance (ESG) Report', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'GF Securities Co., Ltd.', 'fiscal_year': '2022'}]
+
+Error: 2023033003456.md list indices must be integers or slices, not str
+2022_report_title: 2022 Group Annual Report, 
+company_name: Talanx AG, 
+2023_file_name: 2023_talanx_ag_en_new.md
+predict: {'title': 'Talanx AG Annual Report 2023', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'no'}
+
+2022_report_title: 2022 ESG, 
+company_name: China Coal Energy Co Ltd, 
+2023_file_name: d07a19bd8c9e48828df2442e9df0fc6d.md
+predict: {'title': 'CHINA COAL ENERGY ESG REPORT 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'China Coal Energy Company Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 2022年度社会责任报告, 
+company_name: Hengli Petrochemical Co Ltd, 
+2023_file_name: 202353435821.md
+Error: 202353435821.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 Annual & Sustainability Report, 
+company_name: Alfa Laval AB, 
+2023_file_name: annual-report-2023.md
+predict: {'title': 'ArcelorMittal Annual Report 2023', 'title_similarity': 6, 'similarity': 3, 'is_ESG': 'no'}
+
+2022_report_title: Annual Report 2022, 
+company_name: Telenor ASA, 
+2023_file_name: Report%20Q4%202023.md
+predict: {'title': 'Fourth quarter and full year 2023 Interim report January – December 2023', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Telenor ASA', 'fiscal_year': '2023'}
+
+2022_report_title: SUSTAINABILITY REPORT 2022, 
+company_name: Henderson Land Development Co Ltd, 
+2023_file_name: SR23_EN.md
+predict: {'title': 'SUSTAINABILITY REPORT 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Henderson Land Development Company Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Sustainability andAnnual Reports , 
+company_name: Avery Dennison Corp, 
+2023_file_name: 2023-Integrated-Report--Bookmarked.md
+predict: {'title': 'Sustainability and 2023 Annual Reports Notice and 2024 Proxy Statement', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Avery Dennison Corporation', 'fiscal_year': '2023'}
+
+2022_report_title: 2022EnvironmentalSocialandGovernanceReport, 
+company_name: Power Construction Corporation of China Ltd, 
+2023_file_name: 2024032702195.md
+predict: {'title': 'CGN Power Co., Ltd. 2023 Environmental, Social and Governance Report', 'title_similarity': 8, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'CGN Power Co., Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: ESG PERFORMANCE DATA2022, 
+company_name: Fresenius Medical Care AG & Co KGaA, 
+2023_file_name: FME_Annual_Report_2023.md
+predict: {'title': 'Annual Report 2023', 'title_similarity': 3, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: 2022 Sustainability Report, 
+company_name: China Mengniu Dairy Co Ltd, 
+2023_file_name: esg2022_en.md
+predict: {'title': 'Sustainability Report', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'China Mengniu Dairy Company Limited', 'fiscal_year': '2022'}
+
+2022_report_title: 2023 CORPORATE RESPONSIBILITY DATA UPDATE, 
+company_name: Campbell Soup Co, 
+2023_file_name: 2024-corporate-responsibility-report.md
+predict: {'title': '2024 Corporate Responsibility Report', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Campbell Soup Co', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Sustainability in Action, 
+company_name: CF Industries Holdings Inc, 
+2023_file_name: 2022-cf-industries-sustainability-report.md
+predict: {'title': 'CF Industries 2022: Sustainability in Action', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'CF Industries', 'fiscal_year': '2022'}
+
+2022_report_title: 2022社会责任报告, 
+company_name: Shandong Gold Mining Co Ltd, 
+2023_file_name: 2023%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB%E6%8A%A5%E5%91%8A.md
+predict: {'title': '环境、社会与治理（ESG)暨社会责任报告', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': '山东黄金矿业股份有限公司', 'fiscal_year': '2023'}
+
+2022_report_title: ENVIRONMENTAL,SOCIAL ANDGOVERNANCEREPORT 2022, 
+company_name: Abu Dhabi National Oil Company for Distribution PJSC, 
+2023_file_name: 20-ADNOCD_ENVIRONMENTAL-SOCIAL-AND-GOVERNANCE-REVIEW_En.md
+predict: {'title': '2023 Annual Report', 'title_similarity': 8, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Abu Dhabi National Oil Company for Distribution PJSC', 'fiscal_year': '2023'}
+
+2022_report_title: ENVIRONMENTAL, SOCIAL ANDGOVERNANCE REPORT 2022, 
+company_name: Li Ning Co Ltd, 
+2023_file_name: csr_report_2023.md
+predict: {'title': 'ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Li Ning Company Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 2023 Responsibility Report, 
+company_name: Carmax Inc, 
+2023_file_name: Responsibility-Report-2024-Media-Release-FINAL-version.md
+predict: {'title': '2024 Responsibility Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'CarMax, Inc.', 'fiscal_year': '2024'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: CK Infrastructure Holdings Ltd, 
+2023_file_name: sustainability_report_2023.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'CK Infrastructure Holdings Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ENVIRONMENTAL, SOCIAL ANDGOVERNANCE REPORT, 
+company_name: SDIC Power Holdings Co Ltd, 
+2023_file_name: 8454X_1-2023-4-28.md
+predict: {'title': 'SDIC Power Holdings Co., Ltd. 2022 Environmental, Social and Governance Report', 'title_similarity': 7, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'SDIC Power Holdings Co., Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: Integrated Report 2021-22, 
+company_name: Indusind Bank Ltd, 
+2023_file_name: IndusInd_Bank_Integrated_Report_2022-23.md
+predict: {'title': 'Integrated Report 2022-23', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'IndusInd Bank Ltd', 'fiscal_year': '2022-23'}
+
+2022_report_title: 2022 Environmental, Social and Governance Report, 
+company_name: Yunnan Energy New Material Co Ltd, 
+2023_file_name: 202458038367.md
+predict: {'title': '2023 Environmental, Social and Governance Report', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Yunnan Energy New Material Co., Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: Corporate Responsibility Report – 2022 Fiscal Year, 
+company_name: Metro Inc, 
+2023_file_name: 2023-cr-report.md
+Error: 2023-cr-report.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Sustainability Report 2022, 
+company_name: Informa PLC, 
+2023_file_name: 2023-informa-sustainability-report.md
+predict: {'title': 'Informa Sustainability Report 2023', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Informa PLC', 'fiscal_year': '2023'}
+
+2022_report_title: 2022年社会责任报告, 
+company_name: China Galaxy Securities Co Ltd, 
+2023_file_name: 2024032803163_c.md
+predict: {'title': '2023 年度社會責任報告', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': '中國銀河證券股份有限公司', 'fiscal_year': '2023'}
+
+2022_report_title: ENVIRONMENTAL, SOCIAL ANDGOVERNANCE REPORT 2022, 
+company_name: Tencent Music Entertainment Group, 
+2023_file_name: a041eba55b96c7952e26180a2c7cdd28.md
+predict: {'title': 'Environmental, Social and Governance Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Tencent', 'fiscal_year': '2023'}
+
+2022_report_title: Bunzl plc Annual Report 2022, 
+company_name: Bunzl plc, 
+2023_file_name: annual-report-2023.md
+predict: {'title': 'ArcelorMittal Annual Report 2023', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'no'}
+
+2022_report_title: 2022 Social Responsibility and EnvironmentalSocial and Governance Report, 
+company_name: Aluminum Corporation of China Ltd, 
+2023_file_name: 2023032101099.md
+Error: 2023032101099.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 20230428WynnResortsLtd-CorporateResponsibility2023-4-28SD000000003022728264, 
+company_name: Wynn Resorts Ltd, 
+2023_file_name: 2022_GRI_Index_Wynn_Resorts.md
+predict: {'title': '2022 Environmental, Social, and Governance Report', 'title_similarity': 3, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Wynn Resorts, Ltd', 'fiscal_year': '2022'}
+
+2022_report_title: ESG metrics and indicators , 
+company_name: Manhattan Associates Inc, 
+2023_file_name: 23591309.md
+predict: {'title': 'Manhattan Associates Annual Report 2023', 'title_similarity': 3, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: EurofinsEnvironment, Socialand GovernanceReport2022, 
+company_name: Eurofins Scientific SE, 
+2023_file_name: eurofins_esg_report_2023.md
+Error: eurofins_esg_report_2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 年度社会责任报告, 
+company_name: Tbea Co Ltd, 
+2023_file_name: 600089_20240409_FIBC.md
+predict: {'title': '特变电工股份有限公司 2023 年年度报告', 'title_similarity': 7, 'similarity': 5, 'is_ESG': 'no'}
+
+2022_report_title: Integrated Report 2022, 
+company_name: Sumitomo Realty & Development Co Ltd, 
+2023_file_name: SRD_IR2022en.md
+predict: {'title': 'Integrated Report 2022', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Sumitomo Realty & Development Co., Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: 2022年度社会责任报告, 
+company_name: Jiangsu Hengli Hydraulic Co Ltd, 
+2023_file_name: 202457768443.md
+predict: {'title': '2023 年年度报告', 'title_similarity': 5, 'similarity': 5, 'is_ESG': 'no'}
+
+2022_report_title: 20230510BrenntagSE-CorporateResponsibility2023-5-10WC000000003011144327, 
+company_name: Brenntag SE, 
+2023_file_name: sustainability-insights-2023en.md
+predict: {'title': 'Sustainability Insights', 'title_similarity': 3, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'Brenntag SE', 'fiscal_year': '2023'}
+
+2022_report_title: Annual Report 2022, 
+company_name: Brenntag SE, 
+2023_file_name: brenntag_annualreport-2023_en.md
+predict: {'title': 'Annual Report 2023', 'title_similarity': 8, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Brenntag SE', 'fiscal_year': '2023'}
+
+2022_report_title: Environmental, Social &Governance Report 2022, 
+company_name: China Energy Engineering Corp Ltd, 
+2023_file_name: 2023033004476.md
+predict: {'title': 'CHINA ENERGY ENGINEERING CORPORATION LIMITED ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'CHINA ENERGY ENGINEERING CORPORATION LIMITED', 'fiscal_year': '2022'}
+
+2022_report_title: 20230427ChinaCindaAssetManagementC-CorporateResponsibility2023-4-27SL000000003009740641, 
+company_name: China Cinda Asset Management Co Ltd, 
+2023_file_name: 2024042501270.md
+predict: {'title': '2023 Annual Report China Cinda Asset Management Co., Ltd.', 'title_similarity': 2, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: 2022, 
+company_name: Bureau Veritas SA, 
+2023_file_name: Bureau-Veritas-2023-full-year-results-22-Feb-2023.md
+Error: Bureau-Veritas-2023-full-year-results-22-Feb-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: sustainability--report-2022, 
+company_name: Industrivarden AB, 
+2023_file_name: sustainability-report_2023.md
+predict: {'title': 'SUSTAINABILITY REPORT 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Enel Group', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability report 2022, 
+company_name: Anglo American Platinum Ltd, 
+2023_file_name: sustainability-report-2023.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'UBS Group AG', 'fiscal_year': '2023'}
+
+2022_report_title: ANNUAL REPORT 2022, 
+company_name: Groep Brussel Lambert NV, 
+2023_file_name: latest-annual-report.md
+predict: {'title': 'GBL ANNUAL REPORT 2023', 'title_similarity': 9, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Groep Brussel Lambert NV', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Prysmian SpA, 
+2023_file_name: PR-2402-BTL-SASB-20232-FINAL_0.md
+predict: {'title': '2023 SASB Report', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Prysmian SpA', 'fiscal_year': '2023'}
+
+2022_report_title: Responsible SEGRO Report and Data Pack 2022, 
+company_name: SEGRO PLC, 
+2023_file_name: responsible_segro_2023.md
+predict: {'title': 'Responsible SEGRO Report 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'SEGRO PLC', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Siam Cement PCL, 
+2023_file_name: SD2023.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Siam Cement PCL', 'fiscal_year': '2023'}
+
+2022_report_title: 2022年社会责任报告, 
+company_name: Unigroup Guoxin Microelectronics Co Ltd, 
+2023_file_name: 6644657f84d99.md
+predict: {'title': '紫光国芯微电子股份有限公司 2023 年半年度报告', 'title_similarity': 4, 'similarity': 5, 'is_ESG': 'no'}
+
+2022_report_title: 2022 Sustainability Report, 
+company_name: International Paper Co, 
+2023_file_name: IP_ESG22.md
+predict: {'title': 'Building on Our Vision to 2030 2022 Sustainability Report', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'International Paper Co', 'fiscal_year': '2022'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Power Assets Holdings Ltd, 
+2023_file_name: PAH%20SR%202023%20English%20About%20Power%20Assets%20Contents.md
+Error: PAH%20SR%202023%20English%20About%20Power%20Assets%20Contents.md Extra data: line 1 column 2 (char 1)
+2022_report_title: 2022环境、社会及治理（ESG）报告暨企业社会责任报告, 
+company_name: Hundsun Technologies Inc, 
+2023_file_name: 600570_20230401_8K9V.md
+predict: {'title': 'HUNDSUN ESG & CSR REPORT 恒生电子环境、社会及治理（ESG）报告暨企业社会责任报告 2022', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': '恒生电子股份有限公司', 'fiscal_year': '2022'}
+
+2022_report_title: 2022 IntegratedAnnual Report, 
+company_name: ETSY Inc, 
+2023_file_name: etsy-inc-_ar_2024.md
+predict: {'title': '2023 Integrated Annual Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'ETSY Inc', 'fiscal_year': '2023'}
+
+2022_report_title: Environmental, Social and Governance Report 2022, 
+company_name: Shanghai Fosun Pharmaceutical Group Co Ltd, 
+2023_file_name: e877c5f8d0734fd0b2a2e8f782ed8613.md
+predict: {'title': '2023 ESG and Sustainability Report', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Shanghai Fosun Pharmaceutical Group Co Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Bank of Ireland Group PLC, 
+2023_file_name: Publication-of-2022-Sustainability-Report-RNS.md
+Error: Publication-of-2022-Sustainability-Report-RNS.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: ESG Summary Report, 
+company_name: Allegion PLC, 
+2023_file_name: 2022%20Allegion%20Annual%20Report%20and%20More_ESG%20Summary%20Report%20Download.md
+Error: 2022%20Allegion%20Annual%20Report%20and%20More_ESG%20Summary%20Report%20Download.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Environmental, Social and Governance Report 2022, 
+company_name: CNA Financial Corp, 
+2023_file_name: 2022-CNA-ESG-Report.md
+predict: {'title': '2022 Environmental, Social and Governance Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'CNA Financial Corporation', 'fiscal_year': '2022'}
+
+2022_report_title: Corporate Governance Report 2022, 
+company_name: CelcomDigi Bhd, 
+2023_file_name: CG-Report-2022.md
+predict: {'title': 'Corporate Governance Report', 'title_similarity': 9, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'CelcomDigi Berhad', 'fiscal_year': '2022'}
+
+2022_report_title: Integrated Annual Report 2022, 
+company_name: CelcomDigi Bhd, 
+2023_file_name: 4Q2023_Investor_Pres.md
+Error: 4Q2023_Investor_Pres.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: ESG REPORT 2022, 
+company_name: Multiply Group PJSC, 
+2023_file_name: MGAnnualReport2023English.md
+predict: {'title': 'Multiply Group Annual Report 2023', 'title_similarity': 6, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Multiply Group PJSC', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 UNIVERSAL REGISTRATION DOCUMENT, 
+company_name: Ipsen SA, 
+2023_file_name: EN_UNIVERSAL-REGISTRATION-DOCUMENT-2023-BD.md
+predict: {'title': '2023 UNIVERSAL REGISTRATION DOCUMENT', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Ipsen S.A.', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Environmental,Social andGovernanceReport, 
+company_name: Ooredoo QPSC, 
+2023_file_name: Annual-Report-2022-ESG-English.md
+predict: {'title': 'Ooredoo Annual Report 2022', 'title_similarity': 7, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Ooredoo QPSC', 'fiscal_year': '2022'}
+
+2022_report_title: 2022-sustainability-report, 
+company_name: Corporacion Acciona Energias Renovables SA, 
+2023_file_name: 27211-acciona-presents-results-report-2023.md
+predict: {'title': 'FY 2023 RESULTS JANUARY - DECEMBER', 'title_similarity': 4, 'similarity': 6, 'is_ESG': 'no'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Croda International PLC, 
+2023_file_name: Croda-Sustainability-Impact-Report-2023.md
+predict: {'title': 'Sustainability Impact Report 2023', 'title_similarity': 8, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Croda International Plc', 'fiscal_year': '2023'}
+
+2022_report_title: Corporate SocialResponsibility Report2022, 
+company_name: CSPC Pharmaceutical Group Ltd, 
+2023_file_name: 2024042503825.md
+Error: 2024042503825.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 Sustainability Report, 
+company_name: AGCO Corp, 
+2023_file_name: AGCO_Sustainability_Report_2023.md
+predict: {'title': '2023 Sustainability Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'AGCO Corp', 'fiscal_year': '2023'}
+
+2022_report_title: 2 0 2 2 A N N U A L R E P O R T, 
+company_name: Annaly Capital Management Inc, 
+2023_file_name: annual-report-2023.md
+predict: {'title': 'ArcelorMittal Annual Report 2023', 'title_similarity': 7, 'similarity': 7, 'is_ESG': 'no'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Hansoh Pharmaceutical Group Company Ltd, 
+2023_file_name: 30b8d4f878bc48aa93771abf087a287e.md
+Error: 30b8d4f878bc48aa93771abf087a287e.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: First-Half Financial Report 202223, 
+company_name: Carl Zeiss Meditec AG, 
+2023_file_name: afx_quarterly-qtatement_9m2223.md
+predict: {'title': 'Interim Report 9 Months 2022/23', 'title_similarity': 3, 'similarity': 3, 'is_ESG': 'no'}
+
+2022_report_title: Yara Sustainability Report 2022, 
+company_name: Yara International ASA, 
+2023_file_name: yara-integrated-report-2023.md
+predict: {'title': 'Yara Integrated Report 2023', 'title_similarity': 6, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'Yara International ASA', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Environmental, Social, and Governance (ESG) Report, 
+company_name: Hangzhou First Applied Material Co Ltd, 
+2023_file_name: 20230704155618701870.md
+predict: {'title': '2022 ESG Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Hangzhou First Applied Material Co., Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: FY 2022 results, 
+company_name: D'Ieteren Group NV, 
+2023_file_name: 240425_DIET_RA-2023_EN_interactive.md
+predict: {'title': 'D’Ieteren Group Integrated Report 2023', 'title_similarity': 5, 'similarity': 6, 'is_ESG': 'yes', 'corporate_entity': 'D’Ieteren Group NV', 'fiscal_year': '2023'}
+
+2022_report_title: ANNUAL AND SUSTAINABILITY REPORT 2022, 
+company_name: Svenska Cellulosa SCA AB, 
+2023_file_name: scas-annual-report-2023_eng_klickbar.md
+predict: {'title': 'SCA Annual Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Svenska Cellulosa SCA AB', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 (Integrated Report), 
+company_name: Chubu Electric Power Co Inc, 
+2023_file_name: ecsr_report_2022_all.md
+predict: {'title': 'Chubu Electric Power Group Report 2022', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Chubu Electric Power Co Inc', 'fiscal_year': '2022'}
+
+2022_report_title: SUSTAINABILITY REPORT 2022, 
+company_name: Evonik Industries AG, 
+2023_file_name: sustainability-report-2023-8333.md
+predict: {'title': 'SUSTAINABILITY REPORT 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Evonik Industries AG', 'fiscal_year': '2023'}
+
+2022_report_title: Environmental, Social and Governance Report 2022, 
+company_name: BE Semiconductor Industries NV, 
+2023_file_name: 2024032702133.md
+predict: {'title': '2023 Corporate Social Responsibility Environmental, Social and Governance Report', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'CIMC', 'fiscal_year': '2023'}
+
+2022_report_title: SUSTAINABILITYREPORT 2022, 
+company_name: Knight-Swift Transportation Holdings Inc, 
+2023_file_name: SustainabilityReport.md
+predict: {'title': 'SUSTAINABILITY REPORT 2020', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Knight-Swift Transportation Holdings Inc.', 'fiscal_year': '2020'}
+
+2022_report_title: 2022Environmental,Social andGovernanceProgress Report, 
+company_name: Teva Pharmaceutical Industries Ltd, 
+2023_file_name: Teva_ESG_Progress_Report_2022.md
+Error: Teva_ESG_Progress_Report_2022.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022SustainabilityReport, 
+company_name: FinecoBank Banca Fineco SpA, 
+2023_file_name: 2022-consolidated-non-financial-statement.md
+predict: {'title': '2022 Sustainability Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'FinecoBank Banca Fineco SpA', 'fiscal_year': '2022'}
+
+2022_report_title: ANNUAL SUSTAINABILITY REPORT 2022, 
+company_name: Schroders PLC, 
+2023_file_name: 2023-SEREIT-Annual-Sustainability-Report.md
+predict: {'title': 'Schroder European Real Estate Investment Trust plc Annual Sustainability Report for the year ended 30 September 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Schroder European Real Estate Investment Trust plc', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Kasikornbank PCL, 
+2023_file_name: y2023-sd-en.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'KASIKORNBANK', 'fiscal_year': '2023'}
+
+2022_report_title: Integrated Report2022, 
+company_name: Banco Santander-Chile, 
+2023_file_name: ifa-2023-consolidated-annual-financial-report-en.md
+predict: {'title': 'Santander 2023 Annual Report', 'title_similarity': 6, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Banco Santander', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 SUSTAINABILITY REPORT | LAPORAN KEBERLANJUTAN, 
+company_name: Indofood CBP Sukses Makmur Tbk PT, 
+2023_file_name: SR_ICBP_%202022.md
+predict: {'title': '2022 SUSTAINABILITY REPORT | LAPORAN KEBERLANJUTAN', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'PT Indofood CBP Sukses Makmur Tbk', 'fiscal_year': '2022'}
+
+2022_report_title: Front cover Annual andsustainabilityreport 2022, 
+company_name: Telia Company AB, 
+2023_file_name: telia-company-annual-and-sustainability-report-2023.md
+predict: {'title': '2023 Annual and Sustainability Report', 'title_similarity': 9, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Telia Company AB', 'fiscal_year': '2023'}
+
+2022_report_title: Integrated Sustainability Report 2022, 
+company_name: CapitaLand Ascendas REIT, 
+2023_file_name: 20240402_055738_A17U_2RWL32POGZWNI0YM.1.md
+predict: {'title': 'Integrated Sustainability Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'CapitaLand Ascendas REIT', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 HELLA Sustainability Factsheet, 
+company_name: HELLA GmbH & Co KGaA, 
+2023_file_name: HELLA_ESG_FactSheet_CY2022.md
+Error: HELLA_ESG_FactSheet_CY2022.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Centrica plc Annual Report and Accounts 2022, 
+company_name: Centrica PLC, 
+2023_file_name: centrica-annual-report-2023.md
+Error: centrica-annual-report-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 Corporate Responsibility Report, 
+company_name: Lithia Motors Inc, 
+2023_file_name: 6618644ce806febddccf10c8_WF64259_LITLGL_CSR_2023_Final_DIGITAL_SPREADS.md
+predict: {'title': 'Corporate Sustainability Report 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Lithia Motors, Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: Elisa ESG Disclosures2022, 
+company_name: Elisa Oyj, 
+2023_file_name: Elisa_ESG_Disclosure_2023%201.md
+Error: Elisa_ESG_Disclosure_2023%201.md Extra data: line 10 column 1 (char 162)
+2022_report_title: VALUE REPORT 2022, 
+company_name: Nissin Foods Holdings Co Ltd, 
+2023_file_name: 2024032600303.md
+predict: {'title': 'ANNUAL RESULTS FOR THE YEAR ENDED 31 DECEMBER 2023', 'title_similarity': 2, 'similarity': 1, 'is_ESG': 'no'}
+
+2022_report_title: SUSTAINABILITYREPORT 2022, 
+company_name: Cleveland-Cliffs Inc, 
+2023_file_name: CLF_SustainabilityReport_2023_04032023.md
+Error: CLF_SustainabilityReport_2023_04032023.md Extra data: line 1 column 2 (char 1)
+2022_report_title: 2022Annual Report, 
+company_name: CPFL Energia SA, 
+2023_file_name: Annual%20Report%20CPFL%202022%20-%20English.md
+predict: {'title': '2022 Annual Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'CPFL Energia SA', 'fiscal_year': '2022'}
+
+2022_report_title: 2022 Annual Report and Sustainability Report, 
+company_name: Lifco AB (publ), 
+2023_file_name: lifco_annual_report_2023.md
+predict: {'title': '2023 Annual Report and Sustainability Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Lifco AB (publ)', 'fiscal_year': '2023'}
+
+2022_report_title: 2022BYDCSRReport, 
+company_name: BYD Electronic International Co Ltd, 
+2023_file_name: 2023032801987.md
+predict: {'title': '2022 BYD CSR Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'BYD Company Limited', 'fiscal_year': '2022'}
+
+2022_report_title: Sustainability REPORT 2022, 
+company_name: Sanlam Ltd, 
+2023_file_name: sustainability-report-2023.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 10, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'UBS Group AG', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Phoenix Group Holdings PLC, 
+2023_file_name: sustainability-report-2023.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'UBS Group AG', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ENVIRONMENTAL, SOCIAL and GOVERNANCE REPORT, 
+company_name: Kingsoft Corp Ltd, 
+2023_file_name: 2024041901109.md
+predict: {'title': '2023 ENVIRONMENTAL, SOCIAL and GOVERNANCE REPORT', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Kingsoft Corporation Limited', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 ESG Report, 
+company_name: Hongta Securities Co Ltd, 
+2023_file_name: 202458038367.md
+predict: {'title': '2023 Environmental, Social and Governance Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Yunnan Energy New Material Co., Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: Annual Report & Accounts 2022, 
+company_name: Howden Joinery Group PLC, 
+2023_file_name: annual-report-2023.md
+predict: {'title': 'ArcelorMittal Annual Report 2023', 'title_similarity': 7, 'similarity': 6, 'is_ESG': 'no'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: SCG Packaging PCL, 
+2023_file_name: SD2023.md
+Error: SD2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: 2022 Sinopec Corp.Sustainbility Report, 
+company_name: Sinopec Oilfield Service Corp, 
+2023_file_name: 2024032402.md
+predict: {'title': '2023 Sinopec Corp. Sustainability Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'China Petroleum & Chemical Corporation (Sinopec Corp.)', 'fiscal_year': '2023'}
+
+2022_report_title: Non-Financial-Report-2022, 
+company_name: DB Insurance Co Ltd, 
+2023_file_name: Non-Financial-Report-2023.md
+predict: {'title': 'Non-Financial Report 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Deutsche Bank', 'fiscal_year': '2023'}
+
+2022_report_title: glanbia-annual-report-2022, 
+company_name: Glanbia PLC, 
+2023_file_name: annual-report-2023.md
+predict: {'title': 'ArcelorMittal Annual Report 2023', 'title_similarity': 8, 'similarity': 4, 'is_ESG': 'no'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Electrolux AB, 
+2023_file_name: sustainability-report-2023.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'UBS Group AG', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainabilityreport2022, 
+company_name: Sinopec Shanghai Petrochemical Co Ltd, 
+2023_file_name: 2024032402.md
+predict: {'title': '2023 Sinopec Corp. Sustainability Report', 'title_similarity': 6, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'China Petroleum & Chemical Corporation (Sinopec Corp.)', 'fiscal_year': '2023'}
+
+2022_report_title: Annual Report 2022 With SUSTAINABILITY REPORT, 
+company_name: Hexpol AB, 
+2023_file_name: Hexagon-Annual-Report-and-Sustainability-Report-2023.md
+Error: Hexagon-Annual-Report-and-Sustainability-Report-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: SUSTAINABILITY REPORT 2022, 
+company_name: Mobile Telecommunications Company Saudi Arabia SJSC, 
+2023_file_name: SustainabilityReport-2022-en.md
+predict: {'title': 'Sustainability Report 2022', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Mobile Telecommunications Company Saudi Arabia SJSC', 'fiscal_year': '2022'}
+
+2022_report_title: Digitalization and Sustainability 2022, 
+company_name: Mobile Telecommunications Company Saudi Arabia SJSC, 
+2023_file_name: SustainabilityReport-2022-en.md
+predict: {'title': 'Sustainability Report 2022', 'title_similarity': 6, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Mobile Telecommunications Company Saudi Arabia SJSC', 'fiscal_year': '2022'}
+
+2022_report_title: 2022 ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT, 
+company_name: Minth Group Ltd, 
+2023_file_name: 2022-Environmental-Social-and-Governance-Report.md
+predict: {'title': 'ENVIRONMENTAL, SOCIAL AND GOVERNANCE REPORT 2022', 'title_similarity': 10, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Howmet Aerospace', 'fiscal_year': '2022'}
+
+2022_report_title: SUSTAINABILITY REPORT 2022, 
+company_name: Union Bank of the Philippines, 
+2023_file_name: sustainability-report-2023.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'UBS Group AG', 'fiscal_year': '2023'}
+
+2022_report_title: ESG Performance Report 2022, 
+company_name: GlaxoSmithKline Pharmaceuticals Ltd, 
+2023_file_name: esg-performance-report-2023.md
+predict: {'title': 'ESG Performance Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'GlaxoSmithKline Pharmaceuticals Ltd', 'fiscal_year': '2023'}
+
+2022_report_title: Ping An Sustainability Report 2022, 
+company_name: Ping An Healthcare and Technology Co Ltd, 
+2023_file_name: pingan-sustainability-report-22.md
+predict: {'title': 'Ping An Sustainability Report 2022', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Ping An Insurance (Group) Company of China, Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: TAQA-Sustainability-Report-2022, 
+company_name: Taqa Morocco SA, 
+2023_file_name: TAQA-Sustainability-Report-2022.md
+predict: {'title': 'SUSTAINABILITY, FROM VISION TO ACTION', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'TAQA', 'fiscal_year': '2022'}
+
+2022_report_title: 2022 Environmental, Social and Governance Report, 
+company_name: Xtep International Holdings Ltd, 
+2023_file_name: esr.md
+predict: {'title': 'China Tower Corporation Limited Environmental, Social and Governance Report 2022', 'title_similarity': 9, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'China Tower Corporation Limited', 'fiscal_year': '2022'}
+
+2022_report_title: ENVIRONMENTAL, SOCIALAND GOVERNANCE REPORT 2022, 
+company_name: Greentown China Holdings Ltd, 
+2023_file_name: esr.md
+predict: {'title': 'China Tower Corporation Limited Environmental, Social and Governance Report 2022', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'China Tower Corporation Limited', 'fiscal_year': '2022'}
+
+2022_report_title: Playtech plc Responsible Business and Sustainability Addendum to the Annual Report 2022, 
+company_name: Playtech PLC, 
+2023_file_name: annual-report-2023.md
+predict: {'title': 'ArcelorMittal Annual Report 2023', 'title_similarity': 2, 'similarity': 3, 'is_ESG': 'no'}
+
+2022_report_title: 2022China Merchants Bank Sustainability Report, 
+company_name: China Merchants Property Operation & Service Co Ltd, 
+2023_file_name: 46e9e604-5282-45de-9ccd-a7378a14bec3.md
+predict: {'title': 'China Merchants Bank Co., Ltd. Sustainability Report 2023', 'title_similarity': 7, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'China Merchants Bank Co., Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: 4.24.23, 
+company_name: Helios Technologies Inc, 
+2023_file_name: Fresenius_Annual_Report_2023.md
+predict: {'title': 'Media Hub Group in Figures Targets, Results, and Outlook Table of Contents', 'title_similarity': 0, 'similarity': 0, 'is_ESG': 'no'}
+
+2022_report_title: sustainability-report-2022, 
+company_name: Wallenstam AB, 
+2023_file_name: sustainability-report-2023.md
+Error: sustainability-report-2023.md Expecting value: line 1 column 1 (char 0)
+2022_report_title: Sustainability Report 2022, 
+company_name: COSCO SHIPPING Ports Ltd, 
+2023_file_name: quality2022en.md
+predict: {'title': '2022 Sustainability Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'COSCO SHIPPING Lines Co., Ltd.', 'fiscal_year': '2022'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Kerry Logistics Network Ltd, 
+2023_file_name: KGAR_2023_Sustainability_Report.md
+predict: {'title': 'Beyond the Horizon Sustainability Report 2023', 'title_similarity': 6, 'similarity': 8, 'is_ESG': 'yes', 'corporate_entity': 'Kerry Group', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 Sinopec Sustainability Report, 
+company_name: Sinopec Engineering Group Co Ltd, 
+2023_file_name: 2024032402.md
+predict: {'title': '2023 Sinopec Corp. Sustainability Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Sinopec Corp.', 'fiscal_year': '2023'}
+
+2022_report_title: Environmental, Social and Governance Report 2022, 
+company_name: CIMC Enric Holdings Ltd, 
+2023_file_name: 2024032702133.md
+predict: {'title': '2023 Corporate Social Responsibility Environmental, Social and Governance Report', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'CIMC Group', 'fiscal_year': '2023'}
+
+2022_report_title: ESG Report, 
+company_name: Oscar Health Inc, 
+2023_file_name: 2023-impact-report.md
+predict: {'title': 'HCA Healthcare Annual Impact Report', 'title_similarity': 2, 'similarity': 2, 'is_ESG': 'no'}
+
+2022_report_title: Annual Report, 
+company_name: Bure Equity AB, 
+2023_file_name: annual-report-2023.md
+Error: annual-report-2023.md Extra data: line 1 column 2 (char 1)
+2022_report_title: Annual Report, 
+company_name: Tod's SpA, 
+2023_file_name: 2023%20Annual%20Report.md
+predict: {'title': '2023 Annual Report', 'title_similarity': 9, 'similarity': 7, 'is_ESG': 'no'}
+
+2022_report_title: SUSTAINABILITY REPORT, 
+company_name: Bank Maybank Indonesia Tbk PT, 
+2023_file_name: Maybank-Sustainability-Report-2023.md
+predict: {'title': 'MAYBANK SUSTAINABILITY REPORT 2023', 'title_similarity': 9, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Maybank Group', 'fiscal_year': '2023'}
+
+2022_report_title: ANNUAL REPORT, 
+company_name: Borregaard ASA, 
+2023_file_name: annual-report-2023.md
+predict: {'title': 'Annual Report 2023', 'title_similarity': 8, 'similarity': 7, 'is_ESG': 'no'}
+
+2022_report_title: 2023 ESG Fact Sheet, 
+company_name: Vivid Seats Inc, 
+2023_file_name: 9447f9fd90d340599b2f2de69f218790.md
+predict: {'title': '2023 Environmental, Social and Governance Report', 'title_similarity': 6, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Zijin Mining Group Co., Ltd.', 'fiscal_year': '2023'}
+
+2022_report_title: 2022 SUSTAINABILITY REPORT, 
+company_name: NovaGold Resources Inc, 
+2023_file_name: 2023-Sustainability-Report.md
+predict: {'title': '2023 SUSTAINABILITY REPORT', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Church & Dwight Co., Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report, 
+company_name: Teekay Tankers Ltd, 
+2023_file_name: 2023-Sustainability-Report.md
+predict: {'title': '2023 Sustainability Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Church & Dwight Co., Inc.', 'fiscal_year': '2023'}
+
+2022_report_title: Annual Report - Sustainability Report 2022, 
+company_name: Italmobiliare SpA, 
+2023_file_name: 2023%20Annual%20Report.md
+predict: {'title': '2023 ANNUAL REPORT CHINA RAILWAY GROUP LIMITED', 'title_similarity': 4, 'similarity': 3, 'is_ESG': 'no'}
+
+2022_report_title: 2022 Sustainability Report, 
+company_name: Gold Road Resources Ltd, 
+2023_file_name: 2023-Sustainability-Report.md
+predict: {'title': '2023 Sustainability Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Church & Dwight', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainbility Report 2022, 
+company_name: Nestle Pakistan Ltd, 
+2023_file_name: creating-shared-value-sustainability-report-2023-en.md
+predict: {'title': 'Creating Shared Value and Sustainability Report 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'Nestlé', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainbility Report 2022, 
+company_name: China Foods Ltd, 
+2023_file_name: 2023.md
+predict: {'title': 'Yum China 2023 Sustainability Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Yum China', 'fiscal_year': '2023'}
+
+2022_report_title: ESG Report 2022, 
+company_name: Yuexiu Real Estate Investment Trust, 
+2023_file_name: esr.md
+predict: {'title': 'China Tower Corporation Limited Environmental, Social and Governance Report 2022', 'title_similarity': 7, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'China Tower Corporation Limited', 'fiscal_year': '2022'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: El En SpA, 
+2023_file_name: sustainability-report_2023.md
+predict: {'title': 'Sustainability Report 2023', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Enel Group', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Teekay Corp, 
+2023_file_name: 2023-Sustainability-Report.md
+predict: {'title': '2023 Sustainability Report', 'title_similarity': 9, 'similarity': 10, 'is_ESG': 'yes', 'corporate_entity': 'Church & Dwight', 'fiscal_year': '2023'}
+
+2022_report_title: Sustainability Report 2022, 
+company_name: Piovan SpA, 
+2023_file_name: Sustainability-Report-2023.md
+predict: {'title': '2023 Seastainability | Environmental, Social and Governance Report', 'title_similarity': 6, 'similarity': 7, 'is_ESG': 'yes', 'corporate_entity': 'Royal Caribbean Group', 'fiscal_year': '2023'}
+
+2022_report_title: Environmental, Social and Governance Report 2022, 
+company_name: China Merchants Land Ltd, 
+2023_file_name: 46e9e604-5282-45de-9ccd-a7378a14bec3.md
+predict: {'title': 'China Merchants Bank Co., Ltd. Sustainability Report 2023', 'title_similarity': 8, 'similarity': 9, 'is_ESG': 'yes', 'corporate_entity': 'China Merchants Bank Co., Ltd.', 'fiscal_year': '2023'}
+

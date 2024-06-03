@@ -51,7 +51,7 @@ async def pdf_parser(
             return index, "success"
             
     except Exception as e:
-        print(f"Error: {origin_file_name} {e}")
+        print(f"Error: {origin_file_name} {e}, {llama_cloud_api_key}")
         return index, e
 
 
@@ -60,12 +60,16 @@ async def main():
     Main function to parse PDF files to markdown format using LlamaParse API.
     """
 
-    llama_cloud_api_key_list = [
-        os.environ.get("LLAMA_CLOUD_API_KEY"), os.environ.get("LLAMA_CLOUD_API_KEY1"),
-        os.environ.get("LLAMA_CLOUD_API_KEY2"), os.environ.get("LLAMA_CLOUD_API_KEY3"),
-        os.environ.get("LLAMA_CLOUD_API_KEY4"), os.environ.get("LLAMA_CLOUD_API_KEY5"),
-        os.environ.get("LLAMA_CLOUD_API_KEY6"), os.environ.get("LLAMA_CLOUD_API_KEY7"),
-        os.environ.get("LLAMA_CLOUD_API_KEY8"), os.environ.get("LLAMA_CLOUD_API_KEY9")]
+    llama_cloud_api_key_list = [os.environ.get("LLAMA_CLOUD_API_KEY1"),
+                                os.environ.get("LLAMA_CLOUD_API_KEY2"), 
+                                os.environ.get("LLAMA_CLOUD_API_KEY3"),
+                                os.environ.get("LLAMA_CLOUD_API_KEY4"), 
+                                os.environ.get("LLAMA_CLOUD_API_KEY5"),
+                                os.environ.get("LLAMA_CLOUD_API_KEY6"), 
+                                os.environ.get("LLAMA_CLOUD_API_KEY7"),
+                                os.environ.get("LLAMA_CLOUD_API_KEY8"), 
+                                os.environ.get("LLAMA_CLOUD_API_KEY9"),
+                                os.environ.get("LLAMA_CLOUD_API_KEY")]
 
     # 2022
     # origin_file_path = "../resources/origin_pdf_directory_2022"
@@ -77,31 +81,44 @@ async def main():
     # target_file_path = "../resources/target_markdown_directory_2023"
     # download_info = pd.read_csv("../resources/download_2023_info.csv")
 
-    # 2023 intercepted
-    origin_file_path = "../resources/intercepted_pdf_directory_2023"
-    target_file_path = "../resources/target_intercepted_markdown_directory_2023_test"
-    # download_intercept_info = pd.read_csv("../resources/reports_assessment_2023_intercepted_result@0530.csv")
-    download_intercept_info = pd.read_csv("../resources/download_intercept_2023_info.csv")
+    # # 2023 intercepted
+    # origin_file_path = "../resources/intercepted_pdf_directory_2023"
+    # target_file_path = "../resources/target_intercepted_markdown_directory_2023_test"
+    # # download_intercept_info = pd.read_csv("../resources/reports_assessment_2023_intercepted_result@0530.csv")
+    # download_intercept_info = pd.read_csv("../resources/download_intercept_2023_info.csv")
+
+    # 2023 potential intercepted
+    origin_file_path = "../resources/potential_intercepted_origin_pdf_directory_2023"
+    target_file_path = "../resources/potential_markdown_directory_2023"
+    download_intercept_info = pd.read_csv("../resources/potential_intercept_2023_info.csv")
 
     num = 0
     total_pages = 0
     tasks = []
     download_intercept_info["converted_info"] = None
+    llama_cloud_api_key = llama_cloud_api_key_list[0]
+    limit = 1000
 
+    
     for i in range(len(download_intercept_info)):
         intercept_info = download_intercept_info["intercept_info"][i]
         if intercept_info != "success":
             # 截取失败的数据不进行转换
-            download_intercept_info["converted_info"][i] = "convert failed"
+            # download_intercept_info["converted_info"][i] = "convert failed"
+            download_intercept_info.loc[i, "converted_info"] = "convert failed"
             continue
 
-        origin_file_name = download_intercept_info["file_name"][i]
+        # origin_file_name = download_intercept_info["file_name"][i]
+        origin_file_name = download_intercept_info["link"][i].split("/")[-1]
+
         target_file_name = origin_file_name.replace(".pdf", ".md")
 
         downloaded_file_list = os.listdir(target_file_path)
         if target_file_name in downloaded_file_list:
             # 已经转换过的pdf不再转换
             print(f"{origin_file_name} has been converrted to markdown format")
+            # download_intercept_info["converted_info"][i] = "success"
+            download_intercept_info.loc[i, "converted_info"] = "success"
             continue
 
         try:
@@ -109,27 +126,28 @@ async def main():
                 file_pages = len(pdf.pages)
             if file_pages == 0:
                 # pdf文件没有页数，不进行转换
-                download_intercept_info["converted_info"][i] = "No page in the pdf"
+                # download_intercept_info["converted_info"][i] = "No page in the pdf"
+                download_intercept_info.loc[i, "converted_info"] = "No page in the pdf"
+
                 continue
             print(f"The pages of {origin_file_name} is {file_pages}")
             total_pages += file_pages
 
         except Exception as e:
             print(f"Error: {origin_file_name} {e}")
-            download_intercept_info["converted_info"][i] = e
+            # download_intercept_info["converted_info"][i] = e
+            download_intercept_info.loc[i, "converted_info"] = e
             continue
 
-        llama_cloud_api_key = llama_cloud_api_key_list[0]
-        limit = 1000
         if total_pages > limit:
             print(f"Total pages {total_pages}")
             print(f"Total pages at the end of {origin_file_name} is more than {limit}")
             # 超过1000页，切换到下一个api key
             num += 1
-            print(f"num {num}")
             if num >= len(llama_cloud_api_key_list):
                 # 超过api key的数量，退出
                 break
+            print(f"num: {num}, llama_cloud_api_key: {llama_cloud_api_key_list[num]}")
             llama_cloud_api_key = llama_cloud_api_key_list[num]
             total_pages = file_pages
 
@@ -141,7 +159,7 @@ async def main():
     for index, result in results:
         download_intercept_info.loc[index, 'converted_info'] = result
         
-    download_intercept_info.to_csv("../resources/download_intercept_convert_2023_info.csv", index=False)
+    download_intercept_info.to_csv("../resources/potential_convert_2023_info.csv", index=False)
 
 if __name__ == "__main__":
     asyncio.run(main(), debug=False)

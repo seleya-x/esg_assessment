@@ -6,6 +6,12 @@ from Crypto.Cipher import AES
 import shutil
 from fitz import Document
 
+
+def is_pdf_by_extension(file_path):
+    _, file_extension = os.path.splitext(file_path)
+    return file_extension.lower() == '.pdf'
+
+
 def intercept_pdf(source_path, source_file, destination_path, dest_file, pages_to_extract=[0,1,2,3,4,5]):
 
     src = os.path.join(source_path, source_file)
@@ -49,18 +55,49 @@ if __name__== "__main__":
     # download_info = pd.read_csv("../resources/download_info.csv")
 
     # 2023
-    input_pdf_path = "../resources/origin_pdf_directory_2023"
-    output_pdf_path = "../resources/intercepted_pdf_directory_2023"
-    download_info = pd.read_csv("../resources/download_2023_info.csv")
+    # input_pdf_path = "../resources/origin_pdf_directory_2023"
+    # output_pdf_path = "../resources/intercepted_pdf_directory_2023"
+    # download_info = pd.read_csv("../resources/download_2023_info.csv")
 
-    download_info["intercept_info"] = None
-    for i in tqdm(range(len(download_info))):
-        input_pdf_name = download_info["file_name"][i]
-        if input_pdf_name == "No link":
-            download_info["intercept_info"][i] = "No link"
+    # download_info["intercept_info"] = None
+    # for i in tqdm(range(len(download_info))):
+    #     input_pdf_name = download_info["file_name"][i]
+    #     if input_pdf_name == "No link":
+    #         # download_info["intercept_info"][i] = "No link"
+    #         download_info.loc[i, "intercept_info"] = "No link"
+    #         continue
+
+    #     # output_pdf_name = input_pdf_name.replace(".pdf", "_intercepted.pdf")
+    #     intercept_info = intercept_pdf(input_pdf_path, input_pdf_name, output_pdf_path, dest_file=input_pdf_name, pages_to_extract=[0,1,2,3,4,5, 6, 7, 8, 9])
+    #     download_info["intercept_info"][i] = intercept_info
+
+    # download_info.to_csv("../resources/download_intercept_2023_info.csv", index=False)
+
+
+    # 2023 potential
+    input_pdf_path = "../resources/potential_origin_pdf_directory_2023"
+    output_pdf_path = "../resources/potential_intercepted_origin_pdf_directory_2023"
+    download_info = pd.read_csv("../resources/potential_download_2023_info.csv")
+
+    file_list = os.listdir(input_pdf_path)
+    
+    for i in range(len(download_info)):
+        input_pdf_name = str(download_info["link"][i]).split("/")[-1]
+        print(input_pdf_name)
+        if input_pdf_name == "" or is_pdf_by_extension(input_pdf_name) == False:
+            download_info.loc[i, "intercept_info"] = "file format error"
             continue
-        # output_pdf_name = input_pdf_name.replace(".pdf", "_intercepted.pdf")
-        intercept_info = intercept_pdf(input_pdf_path, input_pdf_name, output_pdf_path, dest_file=input_pdf_name, pages_to_extract=[0,1,2,3,4,5, 6, 7, 8, 9])
-        download_info["intercept_info"][i] = intercept_info
 
-    download_info.to_csv("../resources/download_intercept_2023_info.csv", index=False)
+        if input_pdf_name in os.listdir(output_pdf_path):
+            download_info.loc[i, "intercept_info"] = "success"
+            continue
+
+        if input_pdf_name not in file_list:
+            download_info.loc[i, "intercept_info"] = "not download yet"
+            continue
+
+        intercept_info = intercept_pdf(input_pdf_path, input_pdf_name, output_pdf_path, dest_file=input_pdf_name, pages_to_extract=[0,1,2,3,4,5, 6, 7, 8, 9])
+        download_info.loc[i, "intercept_info"]  = intercept_info
+
+
+    download_info.to_csv("../resources/potential_intercept_2023_info.csv", index=False)
