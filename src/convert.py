@@ -1,4 +1,3 @@
-
 import os
 import time
 import dotenv
@@ -6,6 +5,7 @@ import asyncio
 import nest_asyncio
 import pdfplumber
 import pandas as pd
+from tqdm import tqdm
 from llama_parse import LlamaParse
 
 
@@ -101,7 +101,7 @@ async def main():
     limit = 1000
 
     
-    for i in range(len(download_intercept_info)):
+    for i in tqdm(range(len(download_intercept_info))):
         intercept_info = download_intercept_info["intercept_info"][i]
         if intercept_info != "success":
             # 截取失败的数据不进行转换
@@ -113,7 +113,7 @@ async def main():
         origin_file_name = download_intercept_info["link"][i].split("/")[-1]
 
         origin_file_name = origin_file_name.replace(".PDF", ".pdf")
-        
+
         target_file_name = origin_file_name.replace(".pdf", ".md")
 
         downloaded_file_list = os.listdir(target_file_path)

@@ -3,6 +3,7 @@ import sys
 import json
 import openai
 import dotenv
+from tqdm import tqdm
 import pandas as pd
 
 dotenv.load_dotenv()
@@ -108,12 +109,23 @@ def llm_parser(chat_type:str,
                         \n\t4. Based on the similarity between the current document title and the ESG report title for %s as well as the content of the current document, \
                             infer that  whether the ESG report framework used in the current document is consistent with the ESG report framework for %s? \
                             If so, please output the corporate entity and fiscal year of the document. If not, it is not necessary to output. \
-                    \nPlease output the above answer results in JSON format and do not use markdown syntax for output results.\
+                    \nPlease output the above answer results in JSON string and no need to use markdown syntax to encapsulate JSON string into Code Block.\
                     \nYou can refer to the following output examples: \
                             \n\t1）{\"title\": \"xxx\", \"title_similarity\": 10, \"similarity\": 10, \"is_ESG\": \"yes\", \"corporate_entity\": \"xxxx\", \"fiscal_year\": \"xxxx\"} \
                             \n\t2）{\"title\": \"xxx\", \"title_similarity\": 3, \"similarity\": 2, \"is_ESG\": \"no\"} \
                     \nApproach this task step-by-step, take your time and do not skip steps."% (company_name, document_title, company_name, company_name)
 
+        instruction = "The ESG report title for %s is \"%s\". Please refer to the above information to read the current document and answer the following questions: \
+                        \n\t1. What is the title of the current document? \
+                        \n\t2. Ignore the time in the title and give a similarity score between the given title and the current document title. The total score is 10 points, with 0 being the lowest and 10 being the highest. \
+                        \n\t3. Ignore the time factor and rate the overlap between the current document and the provided title? The total score is 10 points, with 0 being the lowest and 10 being the highest. \
+                        \n\t4. Based on the similarity between the current document title and the ESG report title for %s as well as the content of the current document, \
+                            infer that  whether the ESG report framework used in the current document is consistent with the ESG report framework for %s? \
+                            If so, please output the corporate entity and fiscal year of the document. If not, it is not necessary to output. \
+                    \nPlease output the above answer results in JSON string and no need to use markdown syntax to encapsulate JSON string into Code Block.\
+                    \nYou can refer to the following output examples: \
+                            \n\t1）{\"title\": \"xxx\", \"title_similarity\": 10, \"similarity\": 10, \"is_ESG\": \"yes\", \"corporate_entity\": \"xxxx\", \"fiscal_year\": \"xxxx\"} \
+                            \n\t2）{\"title\": \"xxx\", \"title_similarity\": 3, \"similarity\": 2, \"is_ESG\": \"no\"}"% (company_name, document_title, company_name, company_name)
  
         messages = [
             {
@@ -151,38 +163,34 @@ def llm_parser(chat_type:str,
 
 if __name__ == "__main__":
     # openai.BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, your messages resulted in 150944 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
-    result = pd.read_csv("../resources/potential_convert_2023_info.csv")
-    result = result.fillna("nan")
-
-    # 防止重复解析
-    try:
-        potential_assessment = pd.read_csv("../resources/potential_assessment_2023_info.csv")
-        potential_assessment = potential_assessment.fillna("nan")
-    except FileNotFoundError:
-        num_rows = len(result)
-        potential_assessment = pd.DataFrame({'document_title': pd.Series([None] * num_rows)})
-
     # potential intercepted document
     file_download_path = "../resources/potential_markdown_directory_2023"
     file_list = os.listdir(file_download_path)
 
-    result["parser_info"] = None
-    result["document_title"] = None
-    result["title_similarity"] = None
-    result["similarity"] = None
-    result["is_ESG"] = None
-    result["company"] = None
-    result["fiscal_year"] = None
+    # 防止重复解析
+    try:
+        result = pd.read_csv("../resources/potential_assessment_2023_info.csv")
 
-    for i in range(len(result)):
-        if potential_assessment["document_title"][i] != None and potential_assessment["document_title"][i] != "nan" and potential_assessment["document_title"][i] != "No link" and potential_assessment["document_title"][i] != "No title":
-            print(f"2022_report_title: %s, \n has assessmented" % (result["document_title"][i]))
+    except FileNotFoundError:
+        result = pd.read_csv("../resources/potential_convert_2023_info.csv")
+        result = result.fillna("nan")
+        result["parser_info"] = None
+        result["document_title"] = None
+        result["title_similarity"] = None
+        result["similarity"] = None
+        result["is_ESG"] = None
+        result["company"] = None
+        result["fiscal_year"] = None
+
+    for i in tqdm(range(len(result))):
+        if pd.isna(result["document_title"][i]) != True:
+            print(f"report_title: %s has assessmented" % result["document_title"][i])
             result.loc[i, "parser_info"] = "success"
             continue
 
-        file_name_last_year = result["filename"][i].split("/")[-1].replace(".pdf", "").split("_")[-1]
+        file_name_last_year = str(result["filename"][i]).split("/")[-1].replace(".pdf", "").split("_")[-1]
 
-        file_name = result["link"][i].split("/")[-1].replace(".pdf", ".md")
+        file_name = str(result["link"][i]).split("/")[-1].replace(".pdf", ".md")
 
         # time = result["FY"][i]
         company_name = result["name"][i]
@@ -225,7 +233,7 @@ if __name__ == "__main__":
             except Exception as e:
                 print(f"Error: {file_name} {e}")
                 print(f"Error: {file_name} {llm_parser_res}")
-                result.loc[i, "parser_info"] = e
+                result.loc[i, "parser_info"] = llm_parser_res
                 continue
         else:
             result.loc[i, "parser_info"] = "failed"
