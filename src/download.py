@@ -24,23 +24,11 @@ def download_file(url, save_path, file_name):
         return url, file_name, e
     
 
-<<<<<<< HEAD
-
-if __name__ == "__main__":
-
-    # download_res_df = pd.read_excel("../resources/reports_collection_2023.xlsx")
-    # download_res_df = pd.read_csv("../resources/potential_reports_20240530.csv")
-    download_res_df = pd.read_csv("../resources/potential_reports_20240611.csv")
-    download_res_df= download_res_df.fillna("nan")
-=======
 def dowload_origin():
     # res = pd.read_excel("../resources/reports_collection_2023.xlsx")
-    res = pd.read_csv("../resources/potential_reports_20240530.csv")
-    res= res.fillna("nan")
->>>>>>> 533ff749d9e6af0fe58c4a2c43e2a5544625df61
+    download_res_df = pd.read_csv("../resources/potential_reports_20240530.csv")
+    download_res_df= download_res_df.fillna("nan")
 
-    # url = download_res_df.head()["link_2022"][1]
-    # file_name = url.split("/")[-1]
     # save_path = "../resources/origin_pdf_directory_2023/"
     save_path = "../resources/potential_origin_pdf_directory_20240611/"
     # download_file(url, save_path, file_name)
@@ -55,11 +43,7 @@ def dowload_origin():
         # url = download_res_df["link_filename"][i] if download_res_df["link_filename"][i] else None
 
         # 2023 potential reports 20240530
-<<<<<<< HEAD
         url = download_res_df["link"][i] if download_res_df["link"][i] else None
-=======
-        url = res["link"][i] if res["link"][i] else None
->>>>>>> 533ff749d9e6af0fe58c4a2c43e2a5544625df61
 
         if url is not None and url != "nan":
             file_name = url.split("/")[-1]
@@ -91,9 +75,6 @@ def dowload_origin():
             download_res_df.loc[i, "link_filename"] = "No link"
             print(i, url)
 
-<<<<<<< HEAD
-    download_res_df.to_csv("../resources/potential_download_20240611_info.csv", index=False)
-=======
     res.to_csv("../resources/potential_download_2023_info.csv", index=False)
 
 
@@ -120,4 +101,3 @@ def redownload():
 if __name__ == "__main__":
     # dowload_origin()
     redownload()
->>>>>>> 533ff749d9e6af0fe58c4a2c43e2a5544625df61
