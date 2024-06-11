@@ -8,11 +8,11 @@ from requests.adapters import HTTPAdapter
 def download_file(url, save_path, file_name):
 
     s = requests.Session()
-    s.mount('http://', HTTPAdapter(max_retries=3))
-    s.mount('https://', HTTPAdapter(max_retries=3))
+    s.mount('http://', HTTPAdapter(max_retries=10))
+    s.mount('https://', HTTPAdapter(max_retries=10))
 
     try:
-        myfile = s.get(url=url, allow_redirects=True, stream=True, verify=False, timeout=50)
+        myfile = s.get(url=url, allow_redirects=True, stream=True, verify=False, timeout=100)
 
         with open(os.path.join(save_path, file_name), mode="wb") as f:
             f.write(myfile.content)
@@ -22,10 +22,9 @@ def download_file(url, save_path, file_name):
     except requests.exceptions.RequestException as e:
         print(url, e, os.path.join(save_path, file_name))
         return url, file_name, e
+    
 
-
-if __name__ == "__main__":
-
+def dowload_origin():
     # res = pd.read_excel("../resources/reports_collection_2023.xlsx")
     res = pd.read_csv("../resources/potential_reports_20240530.csv")
     res= res.fillna("nan")
@@ -46,7 +45,6 @@ if __name__ == "__main__":
         # url = res["link_filename"][i] if res["link_filename"][i] else None
 
         # 2023 potential reports 20240530
-        print(i)
         url = res["link"][i] if res["link"][i] else None
 
         if url is not None and url != "nan":
@@ -79,3 +77,28 @@ if __name__ == "__main__":
             # res["link_filename"][i] = "No link"
 
     res.to_csv("../resources/potential_download_2023_info.csv", index=False)
+
+
+def redownload():
+    input_pdf_path = "../resources/potential_origin_pdf_directory_2023"
+    download_info = pd.read_csv("../resources/potential_intercept_2023_info.csv")
+
+
+    for i in tqdm(range(307, len(download_info))):
+        url = download_info["link"][i]
+        file_name = str(url).split("/")[-1]
+        if download_info["intercept_info"][i] != "success":
+            print(f"{file_name} is not downloaded")
+            try:
+                url, file_name, info = download_file(url, input_pdf_path, file_name)
+            except Exception as e:
+                print(url, e, os.path.join(input_pdf_path, file_name))
+
+            download_info.loc[i, "download_info"] = info
+            download_info.loc[i, "link_filename"] = file_name
+
+    download_info.to_csv("../resources/potential_download_2023_info.csv", index=False)
+     
+if __name__ == "__main__":
+    # dowload_origin()
+    redownload()

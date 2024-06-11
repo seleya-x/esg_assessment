@@ -117,15 +117,16 @@ def llm_parser(chat_type:str,
 
         instruction = "The ESG report title for %s is \"%s\". Please refer to the above information to read the current document and answer the following questions: \
                         \n\t1. What is the title of the current document? \
-                        \n\t2. Ignore the time in the title and give a similarity score between the given title and the current document title. The total score is 10 points, with 0 being the lowest and 10 being the highest. \
-                        \n\t3. Ignore the time factor and rate the overlap between the current document and the provided title? The total score is 10 points, with 0 being the lowest and 10 being the highest. \
-                        \n\t4. Based on the similarity between the current document title and the ESG report title for %s as well as the content of the current document, \
+                        \n\t2. Verify if the document's company entity is the same company as %s\
+                        \n\t3. Ignore the time in the title and give a similarity score between the given title and the current document title. The total score is 10 points, with 0 being the lowest and 10 being the highest. \
+                        \n\t4. Ignore the time factor and rate the overlap between the current document and the provided title? The total score is 10 points, with 0 being the lowest and 10 being the highest. \
+                        \n\t5. Based on the similarity between the current document title and the ESG report title for %s as well as the content of the current document, \
                             infer that  whether the ESG report framework used in the current document is consistent with the ESG report framework for %s? \
                             If so, please output the corporate entity and fiscal year of the document. If not, it is not necessary to output. \
                     \nPlease output the above answer results in JSON string and no need to use markdown syntax to encapsulate JSON string into Code Block.\
                     \nYou can refer to the following output examples: \
-                            \n\t1）{\"title\": \"xxx\", \"title_similarity\": 10, \"similarity\": 10, \"is_ESG\": \"yes\", \"corporate_entity\": \"xxxx\", \"fiscal_year\": \"xxxx\"} \
-                            \n\t2）{\"title\": \"xxx\", \"title_similarity\": 3, \"similarity\": 2, \"is_ESG\": \"no\"}"% (company_name, document_title, company_name, company_name)
+                            \n\t1）{\"title\": \"xxx\", \"company_match\": yes,\"title_similarity\": 10, \"similarity\": 10, \"is_ESG\": \"yes\", \"corporate_entity\": \"xxxx\", \"fiscal_year\": \"xxxx\"} \
+                            \n\t2）{\"title\": \"xxx\", \"company_match\": no,\"title_similarity\": 3, \"similarity\": 2, \"is_ESG\": \"no\"}"% (company_name, document_title, company_name, company_name, company_name)
  
         messages = [
             {
@@ -176,6 +177,7 @@ if __name__ == "__main__":
         result = result.fillna("nan")
         result["parser_info"] = None
         result["document_title"] = None
+        result["company_match"] = None
         result["title_similarity"] = None
         result["similarity"] = None
         result["is_ESG"] = None
@@ -212,6 +214,7 @@ if __name__ == "__main__":
             try:
                 res = json.loads(llm_parser_res)
                 res_title = res["title"]
+                res_company_match = res["company_match"]
                 res_title_similarity = res["title_similarity"]
                 res_similarity = res["similarity"]
                 res_is_ESG = res["is_ESG"]
@@ -223,6 +226,7 @@ if __name__ == "__main__":
                     res_fiscal_year = "nan"
 
                 result.loc[i, "document_title"] = res_title
+                result.loc[i, "company_match"] = res_company_match    
                 result.loc[i, "title_similarity"] = res_title_similarity    
                 result.loc[i, "similarity"] = res_similarity
                 result.loc[i, "is_ESG"] = res_is_ESG
