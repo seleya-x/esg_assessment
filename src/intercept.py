@@ -97,7 +97,7 @@ if __name__== "__main__":
     # download_info.to_csv("../resources/download_intercept_2023_info.csv", index=False)
 
 
-    # 2023 potential
+    # 20240530 potential
     input_pdf_path = "../resources/potential_origin_pdf_directory_2023"
     output_pdf_path = "../resources/potential_intercepted_origin_pdf_directory_2023_test"
     download_info = pd.read_csv("../resources/potential_download_2023_info.csv")
@@ -121,7 +121,8 @@ if __name__== "__main__":
             continue
 
         # .PDF, change to .pdf
-        output_file = input_pdf_name.replace(".PDF", ".pdf")
+        if output_file.endswith('.PDF'):
+            output_file = input_pdf_name.replace(".PDF", ".pdf")
 
         # 解决后缀缺失的问题
         if output_file.endswith('.pdf') is False:
