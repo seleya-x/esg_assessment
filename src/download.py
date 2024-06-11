@@ -25,7 +25,7 @@ def download_file(url, save_path, file_name):
     
 
 def dowload_origin():
-    # res = pd.read_excel("../resources/reports_collection_2023.xlsx")
+
     # download_res_df = pd.read_csv("../resources/potential_reports_20240530.csv")
     download_res_df = pd.read_csv("../resources/potential_reports_20240611.csv")
 
@@ -76,7 +76,6 @@ def dowload_origin():
 
     # download_res_df.to_csv("../resources/potential_download_2023_info.csv", index=False)
     download_res_df.to_csv("../resources/potential_download_20240611_info.csv", index=False)    
-
 
 def redownload():
     input_pdf_path = "../resources/potential_origin_pdf_directory_2023"
