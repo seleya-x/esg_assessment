@@ -2,7 +2,7 @@
 import os
 import pandas as pd
 from tqdm import tqdm
-from Crypto.Cipher import AES
+# from Crypto.Cipher import AES
 import shutil
 from fitz import Document
 import PyPDF2
@@ -98,16 +98,24 @@ if __name__== "__main__":
 
 
     # 20240530 potential
-    input_pdf_path = "../resources/potential_origin_pdf_directory_2023"
-    output_pdf_path = "../resources/potential_intercepted_origin_pdf_directory_2023_test"
-    download_info = pd.read_csv("../resources/potential_download_2023_info.csv")
-
-    file_list = os.listdir(input_pdf_path)
+    # input_pdf_path = "../resources/potential_origin_pdf_directory_2023"
+    # output_pdf_path = "../resources/potential_intercepted_origin_pdf_directory_2023_test"
+    # download_info = pd.read_csv("../resources/potential_download_2023_info.csv")
+    
+    # 20240612 
+    input_pdf_path = "../resources/potential_origin_pdf_directory_20240611"
+    output_pdf_path = "../resources/potential_intercepted_pdf_directory_20240611"
+    download_info = pd.read_csv("../resources/potential_download_20240611_info.csv")
 
     index = 0
-    
-    for i in range(len(download_info)):
+    for i in tqdm(range(len(download_info))):
         input_pdf_name = str(download_info["link"][i]).split("/")[-1]
+        
+        output_file = input_pdf_name
+        if input_pdf_name == "No link":
+            download_info.loc[i, "intercept_info"] = "No link"
+            continue  
+        
         if input_pdf_name == "":
             download_info.loc[i, "intercept_info"] = "url error"
             continue
@@ -116,7 +124,7 @@ if __name__== "__main__":
             download_info.loc[i, "intercept_info"] = "success"
             continue
 
-        if input_pdf_name not in file_list:
+        if input_pdf_name not in os.listdir(input_pdf_path):
             download_info.loc[i, "intercept_info"] = "not download yet"
             continue
 
@@ -141,4 +149,4 @@ if __name__== "__main__":
 
     print(index)
 
-    # download_info.to_csv("../resources/potential_intercept_2023_info.csv", index=False)
+    download_info.to_csv("../resources/potential_intercept_20240611_info.csv", index=False)

@@ -89,9 +89,14 @@ async def main():
     # download_intercept_info = pd.read_csv("../resources/download_intercept_2023_info.csv")
 
     # 2023 potential intercepted
-    origin_file_path = "../resources/potential_intercepted_origin_pdf_directory_2023"
-    target_file_path = "../resources/potential_markdown_directory_2023"
-    download_intercept_info = pd.read_csv("../resources/potential_intercept_2023_info.csv")
+    # origin_file_path = "../resources/potential_intercepted_origin_pdf_directory_2023"
+    # target_file_path = "../resources/potential_markdown_directory_2023"
+    # download_intercept_info = pd.read_csv("../resources/potential_intercept_2023_info.csv")
+    
+    # 20240612 
+    origin_file_path = "../resources/potential_intercepted_pdf_directory_20240611"
+    target_file_path = "../resources/potential_markdown_directory_20240611"
+    download_intercept_info = pd.read_csv("../resources/potential_intercept_20240611_info.csv")
 
     num = 0
     total_pages = 0
@@ -99,7 +104,6 @@ async def main():
     download_intercept_info["converted_info"] = None
     llama_cloud_api_key = llama_cloud_api_key_list[0]
     limit = 1000
-
     
     for i in tqdm(range(len(download_intercept_info))):
         intercept_info = download_intercept_info["intercept_info"][i]
@@ -111,9 +115,13 @@ async def main():
 
         # origin_file_name = download_intercept_info["file_name"][i]
         origin_file_name = download_intercept_info["link"][i].split("/")[-1]
-
-        origin_file_name = origin_file_name.replace(".PDF", ".pdf")
         
+        if origin_file_name.endswith('.PDF'):
+            origin_file_name = origin_file_name.replace(".PDF", ".pdf")
+
+        # 解决后缀缺失的问题
+        if origin_file_name.endswith('.pdf') is False:
+            origin_file_name = origin_file_name + ".pdf"
 
         target_file_name = origin_file_name.replace(".pdf", ".md")
 
@@ -121,7 +129,6 @@ async def main():
         if target_file_name in downloaded_file_list:
             # 已经转换过的pdf不再转换
             # print(f"{origin_file_name} has been converrted to markdown format")
-            # download_intercept_info["converted_info"][i] = "success"
             download_intercept_info.loc[i, "converted_info"] = "success"
             continue
 
@@ -130,7 +137,6 @@ async def main():
                 file_pages = len(pdf.pages)
             if file_pages == 0:
                 # pdf文件没有页数，不进行转换
-                # download_intercept_info["converted_info"][i] = "No page in the pdf"
                 download_intercept_info.loc[i, "converted_info"] = "No page in the pdf"
 
                 continue
@@ -139,7 +145,6 @@ async def main():
 
         except Exception as e:
             print(f"Error: {origin_file_name} {e}")
-            # download_intercept_info["converted_info"][i] = e
             download_intercept_info.loc[i, "converted_info"] = e
             continue
 
@@ -163,7 +168,7 @@ async def main():
     for index, result in results:
         download_intercept_info.loc[index, 'converted_info'] = result
         
-    download_intercept_info.to_csv("../resources/potential_convert_2023_info.csv", index=False)
+    download_intercept_info.to_csv("../resources/potential_convert_20240611_info.csv", index=False)
 
 if __name__ == "__main__":
     asyncio.run(main(), debug=False)

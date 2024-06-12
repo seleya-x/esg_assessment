@@ -1,8 +1,11 @@
 tqdm
 openai
-dotenv
+python-dotenv
 pandas
+pycryptodome
 pdfplumber
+PyMuPDF
+PyPDF2
 llama_parse
 nest_asyncio
 shutil
