@@ -125,8 +125,7 @@ async def main():
 
         target_file_name = origin_file_name.replace(".pdf", ".md")
 
-        downloaded_file_list = os.listdir(target_file_path)
-        if target_file_name in downloaded_file_list:
+        if target_file_name in os.listdir(target_file_path):
             # 已经转换过的pdf不再转换
             # print(f"{origin_file_name} has been converrted to markdown format")
             download_intercept_info.loc[i, "converted_info"] = "success"

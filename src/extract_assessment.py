@@ -164,16 +164,17 @@ def llm_parser(chat_type:str,
 
 if __name__ == "__main__":
     # openai.BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, your messages resulted in 150944 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+    
     # potential intercepted document
-    file_download_path = "../resources/potential_markdown_directory_2023"
+    file_download_path = "../resources/potential_markdown_directory_20240611"
     file_list = os.listdir(file_download_path)
 
     # 防止重复解析
     try:
-        result = pd.read_csv("../resources/potential_assessment_2023_info.csv")
+        result = pd.read_csv("../resources/potential_assessment_20240611_info.csv")
 
     except FileNotFoundError:
-        result = pd.read_csv("../resources/potential_convert_2023_info.csv")
+        result = pd.read_csv("../resources/potential_convert_20240611_info.csv")
         result = result.fillna("nan")
         result["parser_info"] = None
         result["document_title"] = None
@@ -189,12 +190,13 @@ if __name__ == "__main__":
             print(f"report_title: %s has assessmented" % result["document_title"][i])
             result.loc[i, "parser_info"] = "success"
             continue
-
-        file_name_last_year = str(result["filename"][i]).split("/")[-1].replace(".pdf", "").split("_")[-1]
+            
+        file_name_last_year = str(result["title"][i])
+        if file_name_last_year is "nan":
+            file_name_last_year = str(result["filename"][i]).split("/")[-1].replace(".pdf", "").split("_")[-1]
 
         file_name = str(result["link"][i]).split("/")[-1].replace(".pdf", ".md")
 
-        # time = result["FY"][i]
         company_name = result["name"][i]
 
         if file_name != "No link" and file_name in file_list and file_name != "nan":
@@ -243,4 +245,4 @@ if __name__ == "__main__":
             result.loc[i, "parser_info"] = "failed"
             continue
 
-    result.to_csv("../resources/potential_assessment_2023_info.csv", index=False)
+    result.to_csv("../resources/potential_assessment_20240611_info.csv", index=False)
