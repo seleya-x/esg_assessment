@@ -195,8 +195,9 @@ if __name__ == "__main__":
         if file_name_last_year is "nan":
             file_name_last_year = str(result["filename"][i]).split("/")[-1].replace(".pdf", "").split("_")[-1]
 
-        file_name = str(result["link"][i]).split("/")[-1].replace(".pdf", ".md")
-
+        # file_name = str(result["link"][i]).split("/")[-1].replace(".pdf", ".md")
+        file_name = str(result["link_filename"][i]).replace(".pdf", ".md")
+        
         company_name = result["name"][i]
 
         if file_name != "No link" and file_name in file_list and file_name != "nan":
