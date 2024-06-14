@@ -167,7 +167,7 @@ if __name__ == "__main__":
     
     # potential intercepted document
     file_download_path = "../resources/potential_markdown_directory_20240611"
-    file_list = os.listdir(file_download_path)
+    file_markdown_list = os.listdir(file_download_path)
 
     # 防止重复解析
     try:
@@ -200,7 +200,7 @@ if __name__ == "__main__":
         
         company_name = result["name"][i]
 
-        if file_name != "No link" and file_name in file_list and file_name != "nan":
+        if file_name != "No link" and file_name in file_markdown_list and file_name != "nan":
             print(f"2022_report_title: %s, \ncompany_name: %s, \n2023_file_name: %s" % (file_name_last_year, company_name, file_name))
             
             with open(file=os.path.join(file_download_path, file_name), mode="r") as f:
