@@ -20,7 +20,7 @@ Convert pdf to markdown format by [LlamaParse](https://www.llamaindex.ai/blog/in
 
 
 ## 3. Extract & Assessment
-Using GPT to analyze file content and extract information through prompt engineering.
+Using GPT to analyze file content and extract information through prompt engineering. in this project, we use native chat.completions api with openai.AzureOpenAI.
 
 ### 3.1. Title Extract prompt
 
@@ -29,7 +29,6 @@ The above is a document written by a company. The document is written in markdow
 Please output the above answer with the JSON format:{\"title\":\"xxxx\"}
 
 ```
-
 
 ### 3.2. ESG report  Assessment prompt
 ```
@@ -46,4 +45,31 @@ You can refer to the following output examples:
 Please Do not use markdown syntax for output results." % (time, company_name, document_title, time ,company_name, time, company_name)
 ```
 
+### 3.3. main process code 
 
+```
+import openai
+
+messages = [
+        {
+            "role": "system",
+            "content": "You are an helpful assistant.",
+        },
+        {
+            "role": "system", 
+            "content": documents},
+        {
+            "role": "user", 
+            "content": instruction}]
+
+client = openai.AzureOpenAI(azure_endpoint=endpoint,
+                            api_key=api_key,
+                            api_version=api_version)
+
+chat_completion = client.chat.completions.create(
+        model=llm_model,
+        messages=messages)
+
+result = chat_completion.choices[0].message.content
+
+```
