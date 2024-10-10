@@ -10,3 +10,4 @@ llama_parse
 nest_asyncio
 shutil
 azure-storage-blob
+scrapegraphai

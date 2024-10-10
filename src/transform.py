@@ -8,7 +8,6 @@ import pdfplumber
 import pandas as pd
 from llama_parse import LlamaParse
 
-
 dotenv.load_dotenv()
 
 def pdf_parser(
@@ -16,7 +15,8 @@ def pdf_parser(
         origin_file_name:str,
         target_file_path:str=None,
         target_file_name:str=None,
-        llama_cloud_api_key:str=os.environ.get("LLAMA_CLOUD_API_KEY")
+        llama_cloud_api_key:str="",
+        result_type:str="markdown"
 ):
     try:
         start_time = time.time()
